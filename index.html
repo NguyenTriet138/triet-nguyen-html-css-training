@@ -93,8 +93,39 @@
                 <td>Green-Red</td>
                 <td>Sweet</td>
             </tr>
+            <tr>
+                <td>Durian</td>
+                <td>Yellow</td>
+                <td>Sweet</td>
+            </tr>
         </tbody>
-    </table>    
+    </table>   
+
+    <div>
+        <h2 id="form">FORM</h2>
+        <form method="post">
+            <fieldset>
+                <legend>Survey form</legend>
+                <p><label>Birthday: <input type="date" name="birthday" placeholder="Enter your birthday"></label></p>
+                <p><label>Age: <input type="text" name="age" placeholder="Enter your Age"></label></p>
+                Gender:
+                <input id="female" type="radio" name="gender" value="f">
+                <label for="female">Female</label>
+                <input id="male" type="radio" name="gender" value="m">
+                <label for="male">Male</label><br>
+                <p>Upload your Avatar: </p>
+                <input type="file" name="image_avt" id="image_avt" accept="image/*"><br><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required="required"><br><br>
+                <label for="email">Email:</label></br>
+                <input type="email" id="email" name="email" required="required"><br><br>
+                <label for="password">Password:</label></br>
+                <input type="password" id="password" name="password" required="required"><br><br>
+                <input type="submit" value="Submit">    
+            </fieldset>           
+        </form>
+    </div>
+    
 </body>
 <footer>
     <h5>END</h5>
