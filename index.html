@@ -4,21 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <title>Learn HTML Day 1</title>
+    <title>Learn HTML & CSS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.25;
+        }
+        h1 {
+            color: blue;
+        }
+        h2 {
+            color: green;
+        }
+        .Chapters {
+            text-align: center;
+            font-size: 25px;
+            background-color: white;
+            padding: 1rem;
+            border: solid 2px black;
+            border-radius: 15px;
+        }
+        #Welcome {
+            text-align: center;
+            font-size: 30px;
+            background-color: white;
+            padding: 1rem;
+            border: solid 2px black;
+            border-radius: 15px;
+        }
+        /* footer */
+        footer {
+            background-color: rgb(129, 199, 220);
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            z-index: 5;
+        }
+        #footer {
+            bottom: 0;
+            text-align: center;
+            border-top: solid 1px black;
+            font-size: 85%;
+            padding: 1em 3em;
+        }
+
+        /* content layout */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin: 1.5em auto;
+            margin: 20px 0;
+        }
+        .row .col {
+            flex: 1;
+            padding: 20px;
+            margin: 1em;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+        }
+        .row .col .box-head {
+            text-align: center;
+            background-color: burlywood;
+            color: #181bc5;
+            padding: 1rem;
+            margin-top: -0.2em;
+            border-radius: 12px;
+            font-size: 23px;
+            font-weight: 800;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            gap: 10px 20px;
+            background-color: rgb(50, 133, 189);
+        }
+        .flex-item {
+            background-color: white;
+            border: 2px dashed black;
+            border-radius: 15px;
+            width: 7em;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .grid-container {
+            margin-top: 36px;
+            display: grid;
+            grid-template-columns: 1fr 3fr 3fr;
+            gap: 5px;
+            background-color: rgb(50, 189, 163);
+        }
+        .grid-item {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .z-index-ex {
+            position: relative;
+            margin-top: 36px;
+            height: 380px;
+            justify-content: center;
+            display: flex;
+        }
+        .box {
+            position: absolute;
+            width: 170px;
+            height: 170px;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .box1 {
+            background-color: red;
+            z-index: 1;
+        }
+        .box2 {
+            background-color: green;
+            z-index: 2;
+            left: 48%;
+            top: 50px;
+        }
+        .box3 {
+            background-color: blue;
+            z-index: 3;
+            left: 53%;
+            top: 100px;
+        }
+    </style> 
 </head>
 <body>
     <h1 id="Welcome" style="color: aqua">Welcome to My Web Page</h1>
     <p>This is a paragraph of text on my web page.</p>
     <p>This is the <b>Main browser</b></p>
-    <h1 id="List">LIST</h1>
-    <h2>Counting day with <q>Ordered list</q></h2>
+    <h2 id="List" class="Chapters">LIST</h2>
+    <h3>Counting day with <q>Ordered list</q></h3>
     <ol>
         <li>Day 1</li>
         <li>Day 2</li>
         <li>Day 3</li>
         <li>Day 4</li>
     </ol>
-    <h2>Counting day with <q>Unordered list</q></h2>
+    <h3>Counting day with <q>Unordered list</q></h3>
     <ul>
         <li>Day 1</li>
         <li>Day 2</li>
@@ -29,7 +176,7 @@
         </ul>
         <li>Day 4</li>
     </ul>
-    <h2>Counting day with <q>Definition list</q></h2>
+    <h3>Counting day with <q>Definition list</q></h3>
     <dl>
         <dt>Day 1</dt>
         <dd><i>Day 1 learn HTML</i></dd>
@@ -39,9 +186,14 @@
         <dt>Day 3
             <dd><i>Day 3 learn HTML</i></dd>
         </dt>
+        <dt>Day 4
+            <dd><i>Day 4 learn HTML</i></dd>
+            <dd><i>Day 4 learn CSS</i></dd>
+        </dt>
     </dl>
     <hr />
-    <h2 id="Text">TEXT</h2>
+
+    <h2 id="Text" class="Chapters">TEXT</h2>
     <p>This text contains <sup>superscript</sup> text. (for example 4=2<sup>2</sup>)</p>
     <p>This text contains <sub>subscript</sub> text. (for example H<sub>2</sub>O)</p>
     <p>This text contains <mark>highlighted</mark> text.</p>
@@ -50,7 +202,8 @@
     <p>My email address is: <cite><a href="trietnguyen@gmail.com">trietnguyen@gmail.com</cite></a>.</p>
     <p>I am living at: <address>30 Nguyen Van Troi, Duy Xuyen</address></p>
     <hr />
-    <h2>LINK</h2>
+
+    <h2 class="Chapters">LINK</h2>
     <p>We got 25 immortal quotes of military genius Napoleon: <a href="https://ngaynay.vn/25-cau-noi-bat-hu-cua-thien-tai-quan-su-napoleon-post19055.html" target="_blank">link</a> (opens in new a window).</p>
     <h4>Link to part of the same page</h4>
     <a href="#Text">Link to Text.</a><br>
@@ -66,8 +219,9 @@
     </figure>
     <p>The Siberian tiger or Amur tiger is a population of the tiger subspecies Panthera tigris tigris native to Northeast China, 
         the Russian Far East, and possibly North Korea</p>
+    <hr />
 
-    <h2 id="table">TABLE</h2>
+    <h2 id="table" class="Chapters">TABLE</h2>
     <table border="1" style="border-collapse: collapse; width: 30%; text-align: center;">
         <caption>My favorite fruits</caption>
         <thead>
@@ -100,9 +254,10 @@
             </tr>
         </tbody>
     </table>   
+    <hr />
 
     <div>
-        <h2 id="form">FORM</h2>
+        <h2 id="form" class="Chapters">FORM</h2>
         <form method="post">
             <fieldset>
                 <legend>Survey form</legend>
@@ -125,9 +280,61 @@
             </fieldset>           
         </form>
     </div>
-    
+    <hr />
+
+    <div id="content" >
+        <h2 class="Chapters">LEARN CSS</h2>
+        <div class="row" id="intro">
+            <div id="box1" class="col">
+                <p class="box-head">Box 1</p>
+                <p>Vestibulum viverra dui mauris, ac eleifend nisl volutpat vitae. Sed blandit nisi ac urna venenatis, 
+                    a condimentum risus vestibulum. In vitae eleifend ligula. Nam fringilla eu libero vel iaculis. Mauris nec mauris tristique, ultrices dui a, ultrices eros. 
+                    Sed quis est nec eros ullamcorper efficitur a ultricies magna. 
+                    Sed quis tellus rhoncus, commodo nisl sit amet, eleifend enim. Nunc pharetra non eros eu porta. </p>
+            </div>
+            <div id="box2" class="col">
+                <p class="box-head">Box 2</p>
+                <p>Morbi porttitor eros ac aliquet varius. Aliquam vestibulum nisi eu pulvinar tincidunt. In porttitor tortor est, vitae fermentum sem dictum a. 
+                    Integer vestibulum non orci sed tristique. Integer malesuada ex nisl, tincidunt hendrerit felis auctor nec. Curabitur eu mauris felis. Pellentesque non vestibulum nisi.</p>
+            </div>
+            <div id="box3" class="col">
+                <p class="box-head">Box 3</p>
+                <p>Praesent vulputate condimentum facilisis. Sed consequat turpis placerat, consectetur mi nec, rhoncus augue. Vestibulum viverra sollicitudin auctor. Phasellus euismod cursus dolor, 
+                    nec tincidunt libero condimentum dictum. Ut rhoncus, velit eu volutpat vulputate, sapien felis hendrerit justo, et tristique nisi tellus ac risus. Aenean tellus ligula, venenatis ac augue ac, pellentesque venenatis lorem.</p>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">F-Item 1</div>
+            <div class="flex-item">F-Item 2</div>
+            <div class="flex-item">F-Item 3</div>
+            <div class="flex-item">F-Item 4</div>
+            <div class="flex-item">F-Item 5</div>
+            <div class="flex-item">F-Item 6</div>
+            <div class="flex-item">F-Item 7</div>
+            <div class="flex-item">F-Item 8</div>
+            <div class="flex-item">F-Item 9</div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">G-Item 1</div>
+            <div class="grid-item">G-Item 2</div>
+            <div class="grid-item">G-Item 3</div>
+            <div class="grid-item">G-Item 4</div>
+            <div class="grid-item">G-Item 5</div>
+            <div class="grid-item">G-Item 6</div>
+            <div class="grid-item">G-Item 7</div>
+            <div class="grid-item">G-Item 8</div>
+            <div class="grid-item">G-Item 9</div>
+        </div>
+        <div class="z-index-ex">
+            <div class="box box1">z-index box 1</div>
+            <div class="box box2">z-index box 2</div>
+            <div class="box box3">z-index box 3</div>
+        </div>
+    </div>
 </body>
-<footer>
-    <h5>END</h5>
+<footer id="footer">
+    <p>Copyright &copy: End...</p>
 </footer>
 </html>
