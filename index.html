@@ -62,18 +62,22 @@
         /* content layout */
         .row {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: row;
+            flex-wrap: nowrap;
             overflow: hidden;
             margin: 1.5em auto;
             margin: 20px 0;
+            position: relative;
         }
         .row .col {
-            flex: 1;
+            width: 30.9%;
             padding: 20px;
             margin: 1em;
             background-color: white;
             border-radius: 15px;
             box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+            overflow: auto;
+            max-height: 300px;
         }
         .row .col .box-head {
             text-align: center;
@@ -91,6 +95,7 @@
             flex-direction: row-reverse;
             gap: 10px 20px;
             background-color: rgb(50, 133, 189);
+            transition: all 0.3s ease;
         }
         .flex-item {
             background-color: white;
@@ -134,6 +139,7 @@
             margin: 10px;
             text-align: center;
             font-size: 20px;
+            transition: all 0.3s ease;
         }
         .box1 {
             background-color: red;
@@ -151,6 +157,37 @@
             left: 53%;
             top: 100px;
         }
+        .list-style-css {
+            list-style-type: upper-roman;
+            list-style-position: outside;
+            background-color: rgb(33, 101, 190);
+        }
+        .list-style-css li {
+            color: red;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: lightgreen;
+            margin-top: 4px;
+            padding: auto;
+        }
+        .box:hover {
+            transform: scale(1.25);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .flex-item:hover {
+            transform: scale(1.25);
+        }
+        .pseudo-element-test::placeholder {
+            color: rgba(255, 0, 0, 0.7);
+            font-size: 1em;
+            font-weight: 500;
+        }
+        ::file-selector-button {
+            background-color: rgb(50, 189, 163);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
     </style> 
 </head>
 <body>
@@ -159,7 +196,7 @@
     <p>This is the <b>Main browser</b></p>
     <h2 id="List" class="Chapters">LIST</h2>
     <h3>Counting day with <q>Ordered list</q></h3>
-    <ol>
+    <ol class="list-style-css">
         <li>Day 1</li>
         <li>Day 2</li>
         <li>Day 3</li>
@@ -261,8 +298,8 @@
         <form method="post">
             <fieldset>
                 <legend>Survey form</legend>
-                <p><label>Birthday: <input type="date" name="birthday" placeholder="Enter your birthday"></label></p>
-                <p><label>Age: <input type="text" name="age" placeholder="Enter your Age"></label></p>
+                <p><label>Birthday: <input type="date" name="birthday"></label></p>
+                <p><label>Age: <input class="pseudo-element-test" type="text" name="age" placeholder="Enter your Age"></label></p>
                 Gender:
                 <input id="female" type="radio" name="gender" value="f">
                 <label for="female">Female</label>
@@ -286,19 +323,21 @@
         <h2 class="Chapters">LEARN CSS</h2>
         <div class="row" id="intro">
             <div id="box1" class="col">
-                <p class="box-head">Box 1</p>
+                <div class="box-head">Box 1</div>
                 <p>Vestibulum viverra dui mauris, ac eleifend nisl volutpat vitae. Sed blandit nisi ac urna venenatis, 
                     a condimentum risus vestibulum. In vitae eleifend ligula. Nam fringilla eu libero vel iaculis. Mauris nec mauris tristique, ultrices dui a, ultrices eros. 
                     Sed quis est nec eros ullamcorper efficitur a ultricies magna. 
-                    Sed quis tellus rhoncus, commodo nisl sit amet, eleifend enim. Nunc pharetra non eros eu porta. </p>
+                    Sed quis tellus rhoncus, commodo nisl sit amet, eleifend enim. Nunc pharetra non eros eu porta. Vivamus accumsan commodo risus sit amet tristique. In efficitur leo erat, a dignissim nunc ultrices in. Phasellus dapibus tortor justo, 
+                    eget lacinia dui tempus et. Sed cursus accumsan nulla a aliquam. Aenean volutpat mattis erat quis congue. Phasellus rhoncus, 
+                    massa quis pharetra tincidunt, purus dui sodales arcu, a elementum orci eros in orci. Cras sit amet lorem sit amet lorem pretium cursus. Duis sit amet nulla eu ante vehicula lacinia nec id urna.</p>
             </div>
             <div id="box2" class="col">
-                <p class="box-head">Box 2</p>
+                <div class="box-head">Box 2</div>
                 <p>Morbi porttitor eros ac aliquet varius. Aliquam vestibulum nisi eu pulvinar tincidunt. In porttitor tortor est, vitae fermentum sem dictum a. 
                     Integer vestibulum non orci sed tristique. Integer malesuada ex nisl, tincidunt hendrerit felis auctor nec. Curabitur eu mauris felis. Pellentesque non vestibulum nisi.</p>
             </div>
             <div id="box3" class="col">
-                <p class="box-head">Box 3</p>
+                <div class="box-head">Box 3</div>
                 <p>Praesent vulputate condimentum facilisis. Sed consequat turpis placerat, consectetur mi nec, rhoncus augue. Vestibulum viverra sollicitudin auctor. Phasellus euismod cursus dolor, 
                     nec tincidunt libero condimentum dictum. Ut rhoncus, velit eu volutpat vulputate, sapien felis hendrerit justo, et tristique nisi tellus ac risus. Aenean tellus ligula, venenatis ac augue ac, pellentesque venenatis lorem.</p>
             </div>
