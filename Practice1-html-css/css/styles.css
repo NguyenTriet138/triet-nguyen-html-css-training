@@ -35,7 +35,7 @@ body {
     padding: 40px 60px;
 }
 /* Dreamshare logo */
-.top-bar__logo {
+.nav-logo {
     font-size: 20px;
     margin: 0px 200px;
     color: white;
@@ -45,7 +45,7 @@ body {
         color: #ff4e50;
     }
 }
-.top-bar__buttons {
+.buttons {
     display: flex;
     align-items: center;
     gap: 10px;
