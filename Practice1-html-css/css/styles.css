@@ -29,6 +29,31 @@ body {
     line-height: var(--primary-line-height);
 }
 
+/* Button-card component define */
+.button {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  &:hover {
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+  }
+}
+
+.middle-btn {
+  color: var(--secondary-color);
+  padding: 8.5px 20px;
+}
+
+.large-btn {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 33.5px;
+  font-size: var(--primary-font-size);
+}
+/* End button-card define */
+
 /* HEADER START */
 .header {
     background-image: url(../image/Background.png);
@@ -54,10 +79,6 @@ body {
             color: var(--secondary-color);
             text-decoration: none;
             cursor: pointer;
-
-            &:hover {
-                color: var(--primary-color);
-            }
         }
 
         .buttons {
@@ -65,10 +86,6 @@ body {
             align-items: center;
             gap: 10px;
             padding-right: 43px;
-        
-            button {
-                padding: 8.5px 20px;
-            }
         }
     }
 
@@ -91,32 +108,6 @@ body {
             line-height: var(--primary-line-height);
             margin-bottom: 33px;
         }
-    
-        button {
-            background-color: var(--primary-color);
-            padding: 10px 33.5px;
-            font-size: var(--primary-font-size);
-
-            &:hover {
-                background: transparent;
-                border: 2px solid var(--secondary-color);
-            }
-        }
     }
 }
-
-/* Button-card component define */
-.button {
-    background: transparent;
-    border-radius: 20px;
-    color: var(--secondary-color);
-    border: 2px solid transparent;
-    cursor: pointer;
-    
-    &:hover {
-        background: transparent;
-        border: 2px solid var(--secondary-color);
-    }
-}
-/* End button-card define */
 /* HEADER END */
