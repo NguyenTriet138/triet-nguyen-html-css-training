@@ -35,24 +35,43 @@ body {
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
+  line-height: 100%;
+  font-size: var(--primary-font-size);
+}
+
+/* End button-card define */
+
+/* Start define size button */
+.button.medium-btn {
+  padding: 8.5px 20px;
+
+}
+
+.button.large-btn {
+  padding: 10px 33.5px;
+}
+/* End define size button */
+
+/* START define color button */
+.button.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  
   &:hover {
-    background: transparent;
+    background-color: transparent;
     border: 2px solid var(--secondary-color);
   }
 }
 
-.middle-btn {
+.button.secondary-btn {
   color: var(--secondary-color);
-  padding: 8.5px 20px;
+  
+  &:hover {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+  }
 }
-
-.large-btn {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  padding: 10px 33.5px;
-  font-size: var(--primary-font-size);
-}
-/* End button-card define */
+/* End define color button */
 
 /* HEADER START */
 .header {
@@ -72,15 +91,6 @@ body {
         align-items: center;
         padding: 40px 248px;
 
-        /* Dreamshare logo */
-        .nav-logo {
-            text-transform: uppercase;
-            font-size: 20px;
-            color: var(--secondary-color);
-            text-decoration: none;
-            cursor: pointer;
-        }
-
         .buttons {
             display: flex;
             align-items: center;
@@ -93,21 +103,30 @@ body {
         width: 426px;
         margin: 97.5px auto 0;
         justify-items: center;
-    
-        .header-title {
-            text-transform: uppercase;
-            font-size: var(--termary-title-font-size);
-            font-weight: var(--primary-font-weight);
-            text-align: center;
-            line-height: 1.19em;
-            margin-bottom: 32.5px;
-        }
-        
-        .header-descript {
-            font-size: var(--secondary-title-font-size);
-            line-height: var(--primary-line-height);
-            margin-bottom: 33px;
-        }
     }
+}
+
+/* Dreamshare logo */
+.nav-logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-size: var(--termary-title-font-size);
+  font-weight: var(--primary-font-weight);
+  text-align: center;
+  line-height: 1.19em;
+  margin-bottom: 32.5px;
+}
+
+.header-description {
+  font-size: var(--secondary-title-font-size);
+  line-height: var(--primary-line-height);
+  margin-bottom: 33px;
 }
 /* HEADER END */
