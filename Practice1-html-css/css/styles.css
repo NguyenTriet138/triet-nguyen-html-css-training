@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 :root {
     --primary-color: #ff4e50;
     --secondary-color: #FFFFFF;
@@ -16,6 +17,7 @@
     --primary-font-weight: 400;
     --primary-line-height: 1em;
 }
+
 body {
     font-family: var(--primary-font);
     margin: 0;
@@ -44,29 +46,62 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 40px 248px;
+
+        /* Dreamshare logo */
+        .nav-logo {
+            text-transform: uppercase;
+            font-size: 20px;
+            color: var(--secondary-color);
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-right: 43px;
+        
+            button {
+                padding: 8.5px 20px;
+            }
+        }
     }
-}
 
-/* Dreamshare logo */
-.nav-logo {
-    font-size: 20px;
-    color: var(--secondary-color);
-    text-decoration: none;
+    .header-content {
+        width: 426px;
+        margin: 97.5px auto 0;
+        justify-items: center;
+    
+        .header-title {
+            text-transform: uppercase;
+            font-size: var(--termary-title-font-size);
+            font-weight: var(--primary-font-weight);
+            text-align: center;
+            line-height: 1.19em;
+            margin-bottom: 32.5px;
+        }
+        
+        .header-descript {
+            font-size: var(--secondary-title-font-size);
+            line-height: var(--primary-line-height);
+            margin-bottom: 33px;
+        }
+    
+        button {
+            background-color: var(--primary-color);
+            padding: 10px 33.5px;
+            font-size: var(--primary-font-size);
 
-    &:hover {
-        color: var(--primary-color);
-    }
-}
-
-.buttons {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-right: 43px;
-
-    button {
-        height: 36px;
-        width: 90px;
+            &:hover {
+                background: transparent;
+                border: 2px solid var(--secondary-color);
+            }
+        }
     }
 }
 
@@ -76,37 +111,12 @@ body {
     border-radius: 20px;
     color: var(--secondary-color);
     border: 2px solid transparent;
+    cursor: pointer;
+    
     &:hover {
         background: transparent;
         border: 2px solid var(--secondary-color);
     }
 }
 /* End button-card define */
-
-.header-content {
-    width: 426px;
-    margin: 97.5px auto 0;
-    justify-items: center;
-
-    .header-title {
-        font-size: var(--termary-title-font-size);
-        font-weight: var(--primary-font-weight);
-        text-align: center;
-        line-height: 1.19em;
-        margin-bottom: 32.5px;
-    }
-    
-    .header-descript {
-        font-size: var(--secondary-title-font-size);
-        line-height: var(--primary-line-height);
-        margin-bottom: 33px;
-    }
-
-    button {
-        background-color: var(--primary-color);
-        width: 225px;
-        height: 40px;
-        font-size: var(--primary-font-size);
-    }
-}
 /* HEADER END */
