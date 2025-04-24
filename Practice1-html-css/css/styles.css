@@ -1,27 +1,41 @@
 * {
     box-sizing: border-box;
 }
-
+:root {
+    --primary-color: #ff4e50;
+    --secondary-color: #FFFFFF;
+    --primary-text-color: #444444;
+    --secondary-text-color: #666666;
+    --primary-font: 'Roboto', sans-serif;
+    --primary-font-size: 14px;
+    --secondary-font-size: 16px;
+    --termary-font-size: 10px;
+    --primary-title-font-size: 22px;
+    --secondary-title-font-size: 24px;
+    --termary-title-font-size: 52px;
+    --primary-font-weight: 400;
+    --primary-line-height: 1em;
+}
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: var(--secondary-color);
     color: black;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1em;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-height);
 }
 
 /* HEADER START */
 .header {
     background-image: url(../image/Background.png);
-    min-height: 700px;
+    height: 700px;
     min-width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #FFFFFF;
+    color: var(--secondary-color);
     margin: 0 auto;
 
     /* Top-bar: Dreamshare; login; signup */
@@ -36,13 +50,14 @@ body {
 /* Dreamshare logo */
 .nav-logo {
     font-size: 20px;
-    color: white;
+    color: var(--secondary-color);
     text-decoration: none;
 
     &:hover {
-        color: #ff4e50;
+        color: var(--primary-color);
     }
 }
+
 .buttons {
     display: flex;
     align-items: center;
@@ -56,14 +71,14 @@ body {
 }
 
 /* Button-card component define */
-.button{
+.button {
     background: transparent;
     border-radius: 20px;
-    color: #FFFFFF;
+    color: var(--secondary-color);
     border: 2px solid transparent;
     &:hover {
         background: transparent;
-        border: 2px solid white;
+        border: 2px solid var(--secondary-color);
     }
 }
 /* End button-card define */
@@ -74,29 +89,24 @@ body {
     justify-items: center;
 
     .header-title {
-        font-size: 52px;
-        font-weight: 400;
+        font-size: var(--termary-title-font-size);
+        font-weight: var(--primary-font-weight);
         text-align: center;
         line-height: 1.19em;
         margin-bottom: 32.5px;
     }
     
     .header-descript {
-        font-size: 24px;
-        line-height: 24.5px;
+        font-size: var(--secondary-title-font-size);
+        line-height: var(--primary-line-height);
         margin-bottom: 33px;
     }
 
     button {
-        background-color: #ff4e50;
+        background-color: var(--primary-color);
         width: 225px;
         height: 40px;
-        font-size: 14px;
-        
-        &:hover {
-            background: transparent;
-            border: 2px solid white;
-        }
+        font-size: var(--primary-font-size);
     }
 }
 /* HEADER END */
