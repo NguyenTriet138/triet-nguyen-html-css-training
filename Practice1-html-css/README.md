@@ -1,3 +1,4 @@
+
 # Practice1 - HTML & CSS UI Rebuild
 
 This project is a frontend practice to rebuild a web browser UI using **HTML and CSS**, based on a design from Figma. The goal is to improve skills in layout structuring, CSS styling.
