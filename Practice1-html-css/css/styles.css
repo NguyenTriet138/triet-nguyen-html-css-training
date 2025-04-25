@@ -40,6 +40,13 @@ body {
   font-family: var(--primary-font);
 
   /* Start define size button */
+  &.small-btn {
+    padding: 3.5px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: var(--termary-font-size);
+  }
+
   &.medium-btn {
     padding: 8.5px 20px;
   }
@@ -162,5 +169,51 @@ body {
 /* HEADER END */
 
 /* BODY-CONTENT START */
-/* ======================== */
+/* Start Part 1 content */
+.step-card {
+  width: 300px;
+  height: 400px;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+
+  .step-content {
+    position: absolute;
+    bottom: 0;
+
+    .button {
+      margin-left: 25px;
+    }
+  }
+
+  .step-title {
+    font-size: var(--secondary-title-font-size);
+    padding-left: 25px;
+    margin-top: 30px;
+  } 
+
+  .step-description {
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+  }
+
+  &.primary-img {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    url(../image/step1.png);
+  }
+
+  &.secondary-img {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    url(../image/step2.png);
+  }
+
+  &.termary-img {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    url(../image/step3.png);
+  }
+}
+/* End Part 1 content */
 /* BODY-CONTENT END */
