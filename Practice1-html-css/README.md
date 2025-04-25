@@ -14,7 +14,12 @@ Related links:
 
 - 🎨 **Design Source**: Figma UI mockup (not shared publicly)
 - 💻 **Tech Stack**: HTML + CSS (no frameworks)
-- 🎯 **Goal**: Pixel-perfect reproduction of the provided UI
+- 🎯 **Goal**:
+  - Build a website with HTML/CSS from the design.
+  - Familiar with common HTML tags and CSS selectors.
+  - Understand the concepts of Flex and Grid.
+  - Understand about what is the component, how to split 1 the design into component, what is the benefit of split component.
+
 
 ## Requirement
 
@@ -23,25 +28,21 @@ Related links:
 - Apply Flexbox and Grid.
 - Use W3 validator tool to check code syntax HTML-CSS.
 
-## Task
- 
-- Header
-    - Create a frame for the header section using HTML
-    - Create a component for the button.
-    - Design layout by CSS.
-- Body content Part 1
-    - Create a content-card component.
-    - Create a step-card component.
-    - Reuse button component for step button.
-- Body content Part 2
-    - Create an avatar-card component.
-    - Reuse a content-card component.
-    - Reuse a button component.
-- Body content Part 3
-    - Create an activity-card component.
-    - Reuse a content-card component.
-- Body content Part 4
-    - Reuse a content-card component.
-    - Reuse a button component
-- Footer
-    - Design layout by CSS.
+## Description HTML/CSS tech
+
+- HTML and CSS: in this practice, I will use HTML and CSS to create a web browser UI. In this part will be the application and flexible combination between HTML tags and design on CSS selector.
+
+## How to run
+
+1. **Clone or download the project to your computer**
+
+- Clone by Git:
+  ```
+    git clone <[url](https://github.com/NguyenTriet138/triet-nguyen-html-css-training)>
+    cd Practice1-html-css
+  ```
+- Or download the `.zip` file directly, then extract it to the `Practice1-html-css` folder.
+
+2. **Open the project in a browser**
+
+- Open the `index.html` file with any browser (Chrome, Firefox, Safari,...)

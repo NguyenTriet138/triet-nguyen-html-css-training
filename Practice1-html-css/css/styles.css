@@ -29,6 +29,15 @@ body {
   line-height: var(--primary-line-height);
 }
 
+/* MAIN content config */
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+/* MAIN content end config */
+
 /* Button-card component define */
 .button {
   background: transparent;
@@ -42,9 +51,6 @@ body {
   /* Start define size button */
   &.small-btn {
     padding: 3.5px 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: var(--termary-font-size);
   }
 
   &.medium-btn {
@@ -87,28 +93,19 @@ body {
   margin-bottom: 85px;
 
   .content-title {
-      text-align: center;
-      font-size: var(--primary-title-font-size);
-      color: var(--primary-text-color);
-      line-height: var(--secondary-line-height);
-      margin-bottom: 35px;
+    text-align: center;
+    font-size: var(--primary-title-font-size);
+    color: var(--primary-text-color);
+    line-height: var(--secondary-line-height);
+    margin-bottom: 35px;
   }
 
   .content-container {
-      display: flex;
-      gap: 20px;
+    display: flex;
+    gap: 20px;
   }
 }
 /* End content-cards component define */
-
-/* MAIN content config */
-.main-content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-/* MAIN content end config */
 
 /* HEADER START */
 .header {
@@ -183,6 +180,9 @@ body {
     bottom: 0;
 
     .button {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: var(--termary-font-size);
       margin-left: 25px;
     }
   }
@@ -194,24 +194,22 @@ body {
   } 
 
   .step-description {
-    padding-left: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px;
+    padding: 0 25px 25px 25px;
     margin-top: 30px;
   }
 
   &.primary-img {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step1.png);
   }
 
   &.secondary-img {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step2.png);
   }
 
   &.termary-img {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step3.png);
   }
 }
