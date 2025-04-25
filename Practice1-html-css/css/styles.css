@@ -231,26 +231,28 @@ body {
   align-self: center;
 }
 
-.avatar-card {
+.partner-card {
   width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 36px;
 
-  .avatar-image {
+  .partner-image {
     width: 122px;
     height: 122px;
     border-radius: 50%;
     cursor: pointer;
+    object-fit: cover;
+    object-position: center;
   }
 
-  .avatar-name {
-    margin: 17px 0px 12px 0px;
+  .partner-name {
+    margin: 17px 0px 12px;
     color: var(--primary-text-color);
   }
 
-  .avatar-description {
+  .partner-description {
     text-align: center;
     color: var(--secondary-text-color);
   }
