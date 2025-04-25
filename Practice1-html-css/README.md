@@ -14,25 +14,35 @@ Related links:
 
 - 🎨 **Design Source**: Figma UI mockup (not shared publicly)
 - 💻 **Tech Stack**: HTML + CSS (no frameworks)
-- 🎯 **Goal**: Pixel-perfect reproduction of the provided UI
+- 🎯 **Goal**:
+  - Build a website with HTML/CSS from the design.
+  - Familiar with common HTML tags and CSS selectors.
+  - Understand the concepts of Flex and Grid.
+  - Understand about what is the component, how to split 1 the design into component, what is the benefit of split component.
 
-## 📁 Project Structure
 
-Practice1-html-css/ │ 
-├── index.html # Main HTML file 
-├── css/ 
-│ └── style.css # Main stylesheet 
-│ └── reset.css 
-├── image/ # Images
+## Requirement
 
-## 🧠 Key Learnings
+- Work fine on Chrome browser latest version (Version 135.0.7049.96).
+- Use the right HTML Tags.
+- Apply Flexbox and Grid.
+- Use W3 validator tool to check code syntax HTML-CSS.
 
-- Structuring HTML semantically
-- Using Flexbox/Grid for layout
-- Customizing typography, spacing, and colors with CSS
-- Recreating buttons, navbars, and content sections visually from Figma
+## Tech stacks
 
-## 📸 Preview
+- HTML and CSS: in this practice, I will use HTML and CSS to create a web browser UI. In this part will be the application and flexible combination between HTML tags and design on CSS selector.
 
-- Header UI image:
-![image](https://github.com/user-attachments/assets/425e0a29-1a85-4bc5-a289-5101148110c0)
+## How to run
+
+1. **Clone or download the project to your computer**
+
+- Clone by Git:
+  ```
+    git clone <[url](https://github.com/NguyenTriet138/triet-nguyen-html-css-training)>
+    cd Practice1-html-css
+  ```
+- Or download the `.zip` file directly, then extract it to the `Practice1-html-css` folder.
+
+2. **Open the project in a browser**
+
+- Open the `index.html` file with any browser (Chrome)
