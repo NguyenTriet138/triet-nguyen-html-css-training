@@ -28,7 +28,7 @@ Related links:
 - Apply Flexbox and Grid.
 - Use W3 validator tool to check code syntax HTML-CSS.
 
-## Description HTML/CSS tech
+## Tech stacks
 
 - HTML and CSS: in this practice, I will use HTML and CSS to create a web browser UI. In this part will be the application and flexible combination between HTML tags and design on CSS selector.
 
@@ -45,4 +45,4 @@ Related links:
 
 2. **Open the project in a browser**
 
-- Open the `index.html` file with any browser (Chrome, Firefox, Safari,...)
+- Open the `index.html` file with any browser (Chrome)
