@@ -16,23 +16,32 @@ Related links:
 - 💻 **Tech Stack**: HTML + CSS (no frameworks)
 - 🎯 **Goal**: Pixel-perfect reproduction of the provided UI
 
-## 📁 Project Structure
+## Requirement
 
-Practice1-html-css/ │ 
-├── index.html # Main HTML file 
-├── css/ 
-│ └── style.css # Main stylesheet 
-│ └── reset.css 
-├── image/ # Images
+- Work fine on Chrome browser latest version (Version 135.0.7049.96).
+- Use the right HTML Tags.
+- Apply Flexbox and Grid.
+- Use W3 validator tool to check code syntax HTML-CSS.
 
-## 🧠 Key Learnings
-
-- Structuring HTML semantically
-- Using Flexbox/Grid for layout
-- Customizing typography, spacing, and colors with CSS
-- Recreating buttons, navbars, and content sections visually from Figma
-
-## 📸 Preview
-
-- Header UI image:
-![image](https://github.com/user-attachments/assets/425e0a29-1a85-4bc5-a289-5101148110c0)
+## Task
+ 
+- Header
+    - Create a frame for the header section using HTML
+    - Create a component for the button.
+    - Design layout by CSS.
+- Body content Part 1
+    - Create a content-card component.
+    - Create a step-card component.
+    - Reuse button component for step button.
+- Body content Part 2
+    - Create an avatar-card component.
+    - Reuse a content-card component.
+    - Reuse a button component.
+- Body content Part 3
+    - Create an activity-card component.
+    - Reuse a content-card component.
+- Body content Part 4
+    - Reuse a content-card component.
+    - Reuse a button component
+- Footer
+    - Design layout by CSS.
