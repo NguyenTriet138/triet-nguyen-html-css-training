@@ -37,6 +37,7 @@ body {
   cursor: pointer;
   line-height: 100%;
   font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
 
   /* Start define size button */
   &.medium-btn {
@@ -71,6 +72,37 @@ body {
 }
 /* End button-card define */
 
+/* Start content-cards component define */
+.content-cards {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 85px;
+
+  .content-title {
+      text-align: center;
+      font-size: var(--primary-title-font-size);
+      color: var(--primary-text-color);
+      line-height: var(--secondary-line-height);
+      margin-bottom: 35px;
+  }
+
+  .content-container {
+      display: flex;
+      gap: 20px;
+  }
+}
+/* End content-cards component define */
+
+/* MAIN content config */
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+/* MAIN content end config */
+
 /* HEADER START */
 .header {
   background-image: url(../image/Background.png);
@@ -80,7 +112,7 @@ body {
   background-size: cover;
   background-position: center;
   color: var(--secondary-color);
-  margin: 0 auto;
+  margin: 0 auto 105px;
 
   /* Top-bar: Dreamshare; login; signup */
   .header-bar {
@@ -128,3 +160,7 @@ body {
   }
 }
 /* HEADER END */
+
+/* BODY-CONTENT START */
+/* ======================== */
+/* BODY-CONTENT END */
