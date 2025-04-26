@@ -261,4 +261,70 @@ body {
   }
 }
 /* End Part 2 content */
+
+/* Start Part 3 content */
+.activity-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+
+  .activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+
+    .activity-title {
+      text-align: center;
+      font-size: var(--primary-title-font-size);
+      line-height: var(--primary-line-height);
+      color: var(--secondary-color);
+    }
+
+    &.activity-sports {
+      background-image: url(../image/mask.png), url(../image/activity1.png);
+    }
+
+    &.activity-wellness {
+      background-image: url(../image/mask.png), url(../image/activity2.png);
+    }
+
+    &.activity-extreme {
+      background-image: url(../image/mask.png), url(../image/activity3.png);
+    }
+
+    &.activity-games {
+      background-image: url(../image/mask.png), url(../image/activity4.png);
+    }
+
+    &.activity-culture {
+      background-image: url(../image/mask.png), url(../image/activity5.png);
+    }
+
+    &.activity-enjoyment {
+      background-image: url(../image/mask.png), url(../image/activity6.png);
+    }
+
+    &.activity-travelling {
+      background-image: url(../image/mask.png), url(../image/activity7.png);
+    }
+
+    &.primary-activity {
+      width: 300px;
+      height: 310px;
+    }
+
+    &.secondary-activity {
+      grid-column: 2 / span 2;
+    }
+
+    &.termary-activity {
+      grid-column: 1 / span 2;
+    }
+  }
+}
+/* End Part 3 content */
 /* BODY-CONTENT END */
