@@ -247,13 +247,16 @@ body {
     object-position: center;
   }
 
+  .partner-content {
+    text-align: center;
+  }
+
   .partner-name {
     margin: 17px 0px;
     color: var(--primary-text-color);
   }
 
   .partner-description {
-    text-align: center;
     color: var(--secondary-text-color);
   }
 }
