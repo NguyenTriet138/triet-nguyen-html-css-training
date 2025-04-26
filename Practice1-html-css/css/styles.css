@@ -66,7 +66,7 @@ body {
   &.primary-btn {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    
+
     &:hover {
       background-color: transparent;
       border: 2px solid var(--secondary-color);
@@ -75,10 +75,21 @@ body {
 
   &.secondary-btn {
     color: var(--secondary-color);
-    
+
     &:hover {
       background-color: transparent;
       border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &.termary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
     }
   }
   /* End define color button */
@@ -96,7 +107,7 @@ body {
     text-align: center;
     font-size: var(--primary-title-font-size);
     color: var(--primary-text-color);
-    line-height: var(--secondary-line-height);
+    line-height: var(--primary-line-height);
     margin-bottom: 35px;
   }
 
@@ -147,7 +158,7 @@ body {
     margin: 97.5px auto 0;
     justify-items: center;
   }
-  
+
   .header-title {
     text-transform: uppercase;
     font-size: var(--termary-title-font-size);
@@ -191,7 +202,7 @@ body {
     font-size: var(--secondary-title-font-size);
     padding-left: 25px;
     margin-top: 30px;
-  } 
+  }
 
   .step-description {
     padding: 0 25px 25px 25px;
@@ -214,4 +225,40 @@ body {
   }
 }
 /* End Part 1 content */
+
+/* Start Part 2 content */
+.button.see-other-btn {
+  align-self: center;
+}
+
+.partner-card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+
+  .partner-image {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .partner-content {
+    text-align: center;
+  }
+
+  .partner-name {
+    margin: 17px 0px;
+    color: var(--primary-text-color);
+  }
+
+  .partner-description {
+    color: var(--secondary-text-color);
+  }
+}
+/* End Part 2 content */
 /* BODY-CONTENT END */
