@@ -320,16 +320,16 @@ body {
     background-image: url(../image/mask.png), url(../image/activity7.png);
   }
 
-  &.primary-activity {
+  &.first-activity-size {
     width: 300px;
     height: 310px;
   }
 
-  &.secondary-activity {
+  &.second-activity-size {
     grid-column: 2 / span 2;
   }
 
-  &.termary-activity {
+  &.third-activity-size {
     grid-column: 1 / span 2;
   }
 }
