@@ -355,3 +355,52 @@ body {
 }
 /* End Part 4 content */
 /* BODY-CONTENT END */
+
+/* FOOTER START */
+.footer {
+  display: flex;
+  padding: 38px 250px;
+  border-top: #ff4e50 2px solid;
+}
+
+.footer-column {
+  flex: 1;
+
+  .logo {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--primary-color);
+    line-height: var(--secondary-line-height);
+    cursor: pointer;
+  }
+
+  .footer-title {
+    margin-bottom: 11px;
+    color: #444444;
+  }
+
+  .links {
+    color: #999999;
+    line-height: 26px;
+
+    &:hover {
+      color: #444444;
+      font-weight: 550;
+    }
+  }
+
+  &.footer-designed {
+    text-align: right;
+  }
+
+  .designed-by {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: var(--secondary-line-height);
+    letter-spacing: 1px;
+    color: #cccccc;
+    padding-right: 8px;
+    margin-bottom: 7px;
+  }
+}
+/* FOOTER END */
