@@ -229,7 +229,6 @@ body {
 
 .content-container.content-partners {
   flex-direction: column;
-  gap: 0px;
 }
 
 .partners {
@@ -240,7 +239,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 36px;
+    margin-bottom: 16px;
   }
 
   .partner-image {
@@ -332,7 +331,7 @@ body {
 /* End Part 3 content */
 
 /* Start Part 4 content */
-.content-container.content-create {
+.interests-holiday {
   flex-direction: column;
 
   .create-activity-title {
@@ -351,7 +350,7 @@ body {
   border: 1px solid #d4d4d4;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
   margin-right: 10px;
-  padding: 12px 154px 10px 14px;
+  padding: 12px 145px 10px 14px;
   color: #999999;
 }
 /* End Part 4 content */
