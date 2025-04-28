@@ -98,7 +98,6 @@ body {
 
 /* Start content-cards component define */
 .content-cards {
-  height: auto;
   display: flex;
   flex-direction: column;
   margin-bottom: 85px;
@@ -122,7 +121,6 @@ body {
 .header {
   background-image: url(../image/Background.png);
   height: 700px;
-  min-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,37 +187,35 @@ body {
   .step-content {
     position: absolute;
     bottom: 0;
+    padding: 0 25px 25px;
 
     .button {
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: var(--termary-font-size);
-      margin-left: 25px;
     }
   }
 
   .step-title {
     font-size: var(--secondary-title-font-size);
-    padding-left: 25px;
     margin-top: 30px;
   }
 
   .step-description {
-    padding: 0 25px 25px 25px;
     margin-top: 30px;
   }
 
-  &.primary-img {
+  &.first-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step1.png);
   }
 
-  &.secondary-img {
+  &.second-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step2.png);
   }
 
-  &.termary-img {
+  &.third-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step3.png);
   }
@@ -231,12 +227,20 @@ body {
   align-self: center;
 }
 
-.partner-card {
-  width: 220px;
-  display: flex;
+.content-container.content-partners {
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 36px;
+}
+
+.partners {
+  display: flex;
+
+  .partner-card {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
 
   .partner-image {
     width: 122px;
@@ -252,7 +256,7 @@ body {
   }
 
   .partner-name {
-    margin: 17px 0px;
+    margin: 17px 0;
     color: var(--primary-text-color);
   }
 
@@ -263,68 +267,91 @@ body {
 /* End Part 2 content */
 
 /* Start Part 3 content */
-.activity-cards {
+.content-container.content-activities {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
+}
 
-  .activity {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
+.activities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
 
-    .activity-title {
-      text-align: center;
-      font-size: var(--primary-title-font-size);
-      line-height: var(--primary-line-height);
-      color: var(--secondary-color);
-    }
+  .activity-title {
+    text-align: center;
+    font-size: var(--primary-title-font-size);
+    line-height: var(--primary-line-height);
+    color: var(--secondary-color);
+  }
 
-    &.activity-sports {
-      background-image: url(../image/mask.png), url(../image/activity1.png);
-    }
+  &.activity-sports {
+    background-image: url(../image/mask.png), url(../image/activity1.png);
+  }
 
-    &.activity-wellness {
-      background-image: url(../image/mask.png), url(../image/activity2.png);
-    }
+  &.activity-wellness {
+    background-image: url(../image/mask.png), url(../image/activity2.png);
+  }
 
-    &.activity-extreme {
-      background-image: url(../image/mask.png), url(../image/activity3.png);
-    }
+  &.activity-extreme {
+    background-image: url(../image/mask.png), url(../image/activity3.png);
+  }
 
-    &.activity-games {
-      background-image: url(../image/mask.png), url(../image/activity4.png);
-    }
+  &.activity-games {
+    background-image: url(../image/mask.png), url(../image/activity4.png);
+  }
 
-    &.activity-culture {
-      background-image: url(../image/mask.png), url(../image/activity5.png);
-    }
+  &.activity-culture {
+    background-image: url(../image/mask.png), url(../image/activity5.png);
+  }
 
-    &.activity-enjoyment {
-      background-image: url(../image/mask.png), url(../image/activity6.png);
-    }
+  &.activity-enjoyment {
+    background-image: url(../image/mask.png), url(../image/activity6.png);
+  }
 
-    &.activity-travelling {
-      background-image: url(../image/mask.png), url(../image/activity7.png);
-    }
+  &.activity-travelling {
+    background-image: url(../image/mask.png), url(../image/activity7.png);
+  }
 
-    &.primary-activity {
-      width: 300px;
-      height: 310px;
-    }
+  &.primary-activity-size {
+    width: 300px;
+    height: 310px;
+  }
 
-    &.secondary-activity {
-      grid-column: 2 / span 2;
-    }
+  &.secondary-activity-size {
+    grid-column: 2 / span 2;
+  }
 
-    &.termary-activity {
-      grid-column: 1 / span 2;
-    }
+  &.termary-activity-size {
+    grid-column: 1 / span 2;
   }
 }
 /* End Part 3 content */
+
+/* Start Part 4 content */
+.interests-holiday {
+  flex-direction: column;
+
+  .create-activity-title {
+    font-size: 18px;
+    line-height: 14px;
+    margin: 8px 0 5px;
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
+}
+
+.input-search {
+  width: 300px;
+  font-size: var(--primary-font-size);
+  border-radius: 3px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
+  margin-right: 10px;
+  padding: 12px 14px 10px;
+  color: #999999;
+}
+/* End Part 4 content */
 /* BODY-CONTENT END */
