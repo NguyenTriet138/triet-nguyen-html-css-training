@@ -7,6 +7,7 @@
   --secondary-color: #FFFFFF;
   --primary-text-color: #444444;
   --secondary-text-color: #666666;
+  --termary-text-color: #999999;
   --primary-font: 'Roboto', sans-serif;
   --primary-font-size: 14px;
   --secondary-font-size: 16px;
@@ -16,6 +17,7 @@
   --termary-title-font-size: 52px;
   --primary-font-weight: 400;
   --primary-line-height: 1em;
+  --secondary-line-height: 100%;
 }
 
 body {
@@ -44,7 +46,7 @@ body {
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
-  line-height: 100%;
+  line-height: var(--secondary-line-height);
   font-size: var(--primary-font-size);
   font-family: var(--primary-font);
 
@@ -351,7 +353,7 @@ body {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
   margin-right: 10px;
   padding: 12px 14px 10px;
-  color: #999999;
+  color: var(--termary-text-color);
 }
 /* End Part 4 content */
 /* BODY-CONTENT END */
@@ -360,7 +362,7 @@ body {
 .footer {
   display: flex;
   padding: 38px 250px;
-  border-top: #ff4e50 2px solid;
+  border-top: var(--primary-color) 2px solid;
 }
 
 .footer-column {
@@ -368,7 +370,7 @@ body {
 
   .logo {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: var(--secondary-font-size);
     color: var(--primary-color);
     line-height: var(--secondary-line-height);
     cursor: pointer;
@@ -376,15 +378,15 @@ body {
 
   .footer-title {
     margin-bottom: 11px;
-    color: #444444;
+    color: var(--primary-text-color);
   }
 
   .links {
-    color: #999999;
+    color: var(--termary-text-color);
     line-height: 26px;
 
     &:hover {
-      color: #444444;
+      color: var(--primary-text-color);
       font-weight: 550;
     }
   }
@@ -395,7 +397,7 @@ body {
 
   .designed-by {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: var(--termary-font-size);
     line-height: var(--secondary-line-height);
     letter-spacing: 1px;
     color: #cccccc;
