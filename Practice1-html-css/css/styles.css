@@ -334,14 +334,14 @@ body {
 /* Start Part 4 content */
 .content-container.content-create {
   flex-direction: column;
-}
 
-.create-activity-title {
-  font-size: 18px;
-  line-height: 14px;
-  margin: 8px 0 5px;
-  color: var(--secondary-text-color);
-  text-align: center;
+  .create-activity-title {
+    font-size: 18px;
+    line-height: 14px;
+    margin: 8px 0 5px;
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
 }
 
 .input-search {
@@ -351,7 +351,7 @@ body {
   border: 1px solid #d4d4d4;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
   margin-right: 10px;
-  padding: 12px 0 10px 14px;
+  padding: 12px 154px 10px 14px;
   color: #999999;
 }
 /* End Part 4 content */
