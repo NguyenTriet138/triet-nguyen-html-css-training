@@ -369,9 +369,10 @@ body {
 
 .footer-content {
   display: flex;
+  gap: 20px;
   width: 100%;
   max-width: 940px;
-  margin: 0 250px;
+  margin: 0 220px;
 
   .footer-column {
     flex: 1;
