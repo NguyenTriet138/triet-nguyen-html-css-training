@@ -149,7 +149,6 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     color: var(--secondary-color);
-    text-decoration: none;
     cursor: pointer;
   }
 
@@ -235,6 +234,7 @@ body {
 
 .partners {
   display: flex;
+  gap: 20px;
 
   .partner-card {
     width: 220px;
@@ -361,14 +361,27 @@ body {
 /* FOOTER START */
 .footer {
   display: flex;
-  padding: 38px 250px;
+  padding: 38px 0;    /* bỏ padding 250px mai nhớ thêm */
+  justify-content: center;
   border-top: var(--primary-color) 2px solid;
+  margin-top: 15px;
 }
 
-.footer-column {
-  flex: 1;
+.footer-content {
+  display: flex;
+  width: 100%;
+  max-width: 940px;
+  margin: 0 250px;
 
-  .logo {
+  .footer-column {
+    flex: 1;
+
+    &.footer-designed {
+      text-align: right;
+    }
+  }
+
+  .footer-logo {
     text-transform: uppercase;
     font-size: var(--secondary-font-size);
     color: var(--primary-color);
@@ -381,9 +394,10 @@ body {
     color: var(--primary-text-color);
   }
 
-  .links {
+  .footer-links {
     color: var(--termary-text-color);
     line-height: 26px;
+    cursor: pointer;
 
     &:hover {
       color: var(--primary-text-color);
@@ -391,11 +405,7 @@ body {
     }
   }
 
-  &.footer-designed {
-    text-align: right;
-  }
-
-  .designed-by {
+  .footer-designer {
     text-transform: uppercase;
     font-size: var(--termary-font-size);
     line-height: var(--secondary-line-height);
