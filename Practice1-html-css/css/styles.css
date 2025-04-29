@@ -8,16 +8,23 @@
   --primary-text-color: #444444;
   --secondary-text-color: #666666;
   --termary-text-color: #999999;
+
   --primary-font: 'Roboto', sans-serif;
   --primary-font-size: 14px;
   --secondary-font-size: 16px;
   --termary-font-size: 10px;
+
   --primary-title-font-size: 22px;
   --secondary-title-font-size: 24px;
   --termary-title-font-size: 52px;
+
   --primary-font-weight: 400;
   --primary-line-height: 1em;
   --secondary-line-height: 100%;
+}
+
+.layout-wrapper {
+  min-width: 1440px; /* Set min-width to 1440px */
 }
 
 body {
@@ -29,6 +36,7 @@ body {
   font-size: var(--primary-font-size);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
+  overflow-x: auto;
 }
 
 /* MAIN content config */
@@ -134,6 +142,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 40px 248px;
 
     .buttons {
@@ -361,7 +371,7 @@ body {
 /* FOOTER START */
 .footer {
   display: flex;
-  padding: 38px 0;    /* bỏ padding 250px mai nhớ thêm */
+  padding: 38px 0;
   justify-content: center;
   border-top: var(--primary-color) 2px solid;
   margin-top: 15px;
