@@ -7,159 +7,161 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <!-- ==== START Header ====  -->
-    <header class="header">
-      <div class="header-bar">
-        <h1 class="nav-logo">Dreamshare</h1>
-        <div class="buttons">
-          <button class="button medium-btn secondary-btn">Log in</button>
-          <button class="button medium-btn secondary-btn">Sign Up</button>
-        </div>
-      </div>
-      <div class="header-content">
-        <h2 class="header-title">Share your holiday dream</h2>
-        <p class="header-description">And find the perfect partner to fullfill it</p>
-        <button class="button large-btn primary-btn">Find your holiday partner</button>
-      </div>
-    </header>
-    <!-- ==== END Header ====  -->
-    <!-- ***************************************  -->
-    <!-- ==== START Body-content ====  -->
-    <main class="main-content">
-      <!--Section 1: Dreamshare works -->
-      <section class="content-cards">
-        <h3 class="content-title">How Dreamshare works?</h3>
-        <div class="content-container">
-          <article class="step-card first-step-img">
-            <div class="step-content">
-              <button class="button small-btn primary-btn">Step 1</button>
-              <h4 class="step-title">Sed leo enim, condimentum</h4>
-              <p class="step-description">Quisque libero libero, dictum non turpis in, luctus semper lorem.
-                  Donec rhoncus a leo sit amet facilisis.</p>
-            </div>
-          </article>
-          <article class="step-card second-step-img">
-            <div class="step-content">
-              <button class="button small-btn primary-btn">Step 2</button>
-              <h4 class="step-title">Morbi velit risus</h4>
-              <p class="step-description">Nulla venenatis tempor dui in molestie.
-                  Nulla quis dictum purus, sit amet porttitor est.</p>
-            </div>
-          </article>
-          <article class="step-card third-step-img">
-            <div class="step-content">
-              <button class="button small-btn primary-btn">Step 3</button>
-              <h4 class="step-title">Sed leo enim, condimentum</h4>
-              <p class="step-description">Quisque libero libero, dictum non turpis in, luctus semper lorem.
-                  Donec rhoncus a leo sit amet facilisis.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-      <!--Section 2: Meet partners -->
-      <section class="content-cards">
-        <h3 class="content-title">Meet a partner for your best holiday</h3>
-        <div class="content-container content-partners">
-          <div class="partners">
-            <figure class="partner-card">
-              <img src="./image/avatar1.png" alt="Bradley Hunter image" class="partner-image">
-              <figcaption class="partner-content">
-                <h4 class="partner-name">Bradley Hunter</h4>
-                <p class="partner-description">Based in Chicago. I love playing tennis and loud music.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card">
-              <img src="./image/avatar2.png" alt="Marie Bennett image" class="partner-image">
-              <figcaption class="partner-content">
-                <h4 class="partner-name">Marie Bennett</h4>
-                <p class="partner-description">Currently living in Colorado. Lover of art, languages and travelling.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card">
-              <img src="./image/avatar3.png" alt="Diana Wells image" class="partner-image">
-              <figcaption class="partner-content">
-                <h4 class="partner-name">Diana Wells</h4>
-                <p class="partner-description">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card">
-              <img src="./image/avatar4.png" alt="Christopher Pierce image" class="partner-image">
-              <figcaption class="partner-content">
-                <h4 class="partner-name">Christopher Pierce</h4>
-                <p class="partner-description">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
-              </figcaption>
-            </figure>
+    <div class="layout-wrapper">
+      <!-- ==== START Header ====  -->
+      <header class="header">
+        <div class="header-bar">
+          <h1 class="nav-logo">Dreamshare</h1>
+          <div class="buttons">
+            <button class="button medium-btn secondary-btn">Log in</button>
+            <button class="button medium-btn secondary-btn">Sign Up</button>
           </div>
-          <button class="button large-btn termary-btn see-other-btn">See other partners</button>
         </div>
-      </section>
-      <!--Section 3: Discover activity ideas -->
-      <section class="content-cards">
-        <h3 class="content-title">Discover holiday activity ideas</h3>
-        <div class="content-container content-activities">
-          <article class="activities primary-activity-size activity-sports">
-            <h4 class="activity-title">Sports and Activities</h4>
-          </article>
-          <article class="activities primary-activity-size activity-wellness">
-            <h4 class="activity-title">Wellness and Health</h4>
-          </article>
-          <article class="activities primary-activity-size activity-extreme">
-            <h4 class="activity-title">Extreme Sports and Expeditions</h4>
-          </article>
-          <article class="activities primary-activity-size activity-games">
-            <h4 class="activity-title">Games</h4>
-          </article>
-          <article class="activities secondary-activity-size activity-culture">
-            <h4 class="activity-title">Culture and Education</h4>
-          </article>
-          <article class="activities termary-activity-size activity-enjoyment">
-            <h4 class="activity-title">Enjoyment and Relaxation</h4>
-          </article>
-          <article class="activities primary-activity-size activity-travelling">
-            <h4 class="activity-title">Travelling</h4>
-          </article>
+        <div class="header-content">
+          <h2 class="header-title">Share your holiday dream</h2>
+          <p class="header-description">And find the perfect partner to fullfill it</p>
+          <button class="button large-btn primary-btn">Find your holiday partner</button>
         </div>
-      </section>
-      <!--Section 4: Create your holiday activity -->
-      <section class="content-cards">
-        <h3 class="content-title">Create your holiday activity</h3>
-        <div class="content-container interests-holiday">
-          <h4 class="create-activity-title">Hi! What are your holiday interests?</h4>
-          <form>
-            <input type="search" name="search" class="input-search" placeholder="Enter your interests">
-            <button class="button large-btn termary-btn">Search partners</button>
-          </form>
+      </header>
+      <!-- ==== END Header ====  -->
+      <!-- ***************************************  -->
+      <!-- ==== START Body-content ====  -->
+      <main class="main-content">
+        <!--Section 1: Dreamshare works -->
+        <section class="content-cards">
+          <h3 class="content-title">How Dreamshare works?</h3>
+          <div class="content-container">
+            <article class="step-card first-step-img">
+              <div class="step-content">
+                <button class="button small-btn primary-btn">Step 1</button>
+                <h4 class="step-title">Sed leo enim, condimentum</h4>
+                <p class="step-description">Quisque libero libero, dictum non turpis in, luctus semper lorem.
+                    Donec rhoncus a leo sit amet facilisis.</p>
+              </div>
+            </article>
+            <article class="step-card second-step-img">
+              <div class="step-content">
+                <button class="button small-btn primary-btn">Step 2</button>
+                <h4 class="step-title">Morbi velit risus</h4>
+                <p class="step-description">Nulla venenatis tempor dui in molestie.
+                    Nulla quis dictum purus, sit amet porttitor est.</p>
+              </div>
+            </article>
+            <article class="step-card third-step-img">
+              <div class="step-content">
+                <button class="button small-btn primary-btn">Step 3</button>
+                <h4 class="step-title">Sed leo enim, condimentum</h4>
+                <p class="step-description">Quisque libero libero, dictum non turpis in, luctus semper lorem.
+                    Donec rhoncus a leo sit amet facilisis.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!--Section 2: Meet partners -->
+        <section class="content-cards">
+          <h3 class="content-title">Meet a partner for your best holiday</h3>
+          <div class="content-container content-partners">
+            <div class="partners">
+              <figure class="partner-card">
+                <img src="./image/avatar1.png" alt="Bradley Hunter image" class="partner-image">
+                <figcaption class="partner-content">
+                  <h4 class="partner-name">Bradley Hunter</h4>
+                  <p class="partner-description">Based in Chicago. I love playing tennis and loud music.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card">
+                <img src="./image/avatar2.png" alt="Marie Bennett image" class="partner-image">
+                <figcaption class="partner-content">
+                  <h4 class="partner-name">Marie Bennett</h4>
+                  <p class="partner-description">Currently living in Colorado. Lover of art, languages and travelling.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card">
+                <img src="./image/avatar3.png" alt="Diana Wells image" class="partner-image">
+                <figcaption class="partner-content">
+                  <h4 class="partner-name">Diana Wells</h4>
+                  <p class="partner-description">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card">
+                <img src="./image/avatar4.png" alt="Christopher Pierce image" class="partner-image">
+                <figcaption class="partner-content">
+                  <h4 class="partner-name">Christopher Pierce</h4>
+                  <p class="partner-description">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <button class="button large-btn termary-btn see-other-btn">See other partners</button>
+          </div>
+        </section>
+        <!--Section 3: Discover activity ideas -->
+        <section class="content-cards">
+          <h3 class="content-title">Discover holiday activity ideas</h3>
+          <div class="content-container content-activities">
+            <article class="activities primary-activity-size activity-sports">
+              <h4 class="activity-title">Sports and Activities</h4>
+            </article>
+            <article class="activities primary-activity-size activity-wellness">
+              <h4 class="activity-title">Wellness and Health</h4>
+            </article>
+            <article class="activities primary-activity-size activity-extreme">
+              <h4 class="activity-title">Extreme Sports and Expeditions</h4>
+            </article>
+            <article class="activities primary-activity-size activity-games">
+              <h4 class="activity-title">Games</h4>
+            </article>
+            <article class="activities secondary-activity-size activity-culture">
+              <h4 class="activity-title">Culture and Education</h4>
+            </article>
+            <article class="activities termary-activity-size activity-enjoyment">
+              <h4 class="activity-title">Enjoyment and Relaxation</h4>
+            </article>
+            <article class="activities primary-activity-size activity-travelling">
+              <h4 class="activity-title">Travelling</h4>
+            </article>
+          </div>
+        </section>
+        <!--Section 4: Create your holiday activity -->
+        <section class="content-cards">
+          <h3 class="content-title">Create your holiday activity</h3>
+          <div class="content-container interests-holiday">
+            <h4 class="create-activity-title">Hi! What are your holiday interests?</h4>
+            <form>
+              <input type="search" name="search" class="input-search" placeholder="Enter your interests">
+              <button class="button large-btn termary-btn">Search partners</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <!-- ==== END Body-content ====  -->
+      <!-- ***************************************  -->
+      <!-- ==== START Footer ====  -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3 class="footer-logo">Dreamshare</h3>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Company</h4>
+            <ul>
+              <li class="footer-links">About</li>
+              <li class="footer-links">Contact</li>
+              <li class="footer-links">Press</li>
+              <li class="footer-links">Blog</li>
+              <li class="footer-links">Terms and Privacy</li>
+              <li class="footer-links">Help</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Partners</h4>
+          </div>
+          <div class="footer-column footer-designed">
+            <p class="footer-designer">Designed by</p>
+            <img src="./image/logo-design.png" alt="Areto logo"/>
+          </div>
         </div>
-      </section>
-    </main>
-    <!-- ==== END Body-content ====  -->
-    <!-- ***************************************  -->
-    <!-- ==== START Footer ====  -->
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-column">
-          <h3 class="footer-logo">Dreamshare</h3>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-title">Company</h4>
-          <ul>
-            <li class="footer-links">About</li>
-            <li class="footer-links">Contact</li>
-            <li class="footer-links">Press</li>
-            <li class="footer-links">Blog</li>
-            <li class="footer-links">Terms and Privacy</li>
-            <li class="footer-links">Help</li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-title">Partners</h4>
-        </div>
-        <div class="footer-column footer-designed">
-          <p class="footer-designer">Designed by</p>
-          <img src="./image/logo-design.png" alt="Areto logo"/>
-        </div>
-      </div>
-    </footer>
-    <!-- ==== END Footer ====  -->
+      </footer>
+      <!-- ==== END Footer ====  -->
+    </div>
   </body>
 </html>
