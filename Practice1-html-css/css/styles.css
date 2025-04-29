@@ -7,6 +7,7 @@
   --secondary-color: #FFFFFF;
   --primary-text-color: #444444;
   --secondary-text-color: #666666;
+  --termary-text-color: #999999;
   --primary-font: 'Roboto', sans-serif;
   --primary-font-size: 14px;
   --secondary-font-size: 16px;
@@ -16,6 +17,7 @@
   --termary-title-font-size: 52px;
   --primary-font-weight: 400;
   --primary-line-height: 1em;
+  --secondary-line-height: 100%;
 }
 
 body {
@@ -44,7 +46,7 @@ body {
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
-  line-height: 100%;
+  line-height: var(--secondary-line-height);
   font-size: var(--primary-font-size);
   font-family: var(--primary-font);
 
@@ -147,7 +149,6 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     color: var(--secondary-color);
-    text-decoration: none;
     cursor: pointer;
   }
 
@@ -233,6 +234,7 @@ body {
 
 .partners {
   display: flex;
+  gap: 20px;
 
   .partner-card {
     width: 220px;
@@ -351,7 +353,67 @@ body {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
   margin-right: 10px;
   padding: 12px 14px 10px;
-  color: #999999;
+  color: var(--termary-text-color);
 }
 /* End Part 4 content */
 /* BODY-CONTENT END */
+
+/* FOOTER START */
+.footer {
+  display: flex;
+  padding: 38px 0;    /* bỏ padding 250px mai nhớ thêm */
+  justify-content: center;
+  border-top: var(--primary-color) 2px solid;
+  margin-top: 15px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 940px;
+  margin: 0 220px;
+
+  .footer-column {
+    flex: 1;
+
+    &.footer-designed {
+      text-align: right;
+    }
+  }
+
+  .footer-logo {
+    text-transform: uppercase;
+    font-size: var(--secondary-font-size);
+    color: var(--primary-color);
+    line-height: var(--secondary-line-height);
+    cursor: pointer;
+  }
+
+  .footer-title {
+    margin-bottom: 11px;
+    color: var(--primary-text-color);
+  }
+
+  .footer-links {
+    color: var(--termary-text-color);
+    line-height: 26px;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--primary-text-color);
+      font-weight: 550;
+    }
+  }
+
+  .footer-designer {
+    text-transform: uppercase;
+    font-size: var(--termary-font-size);
+    line-height: var(--secondary-line-height);
+    letter-spacing: 1px;
+    color: #cccccc;
+    padding-right: 8px;
+    margin-bottom: 7px;
+  }
+}
+/* FOOTER END */
