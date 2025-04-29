@@ -129,7 +129,7 @@ body {
 
 /* HEADER START */
 .header {
-  background-image: url(../image/Background.png);
+  background-image: url(../image/Background.jpg);
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,17 +218,17 @@ body {
 
   &.first-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
-    url(../image/step1.png);
+    url(../image/step1.jpg);
   }
 
   &.second-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
-    url(../image/step2.png);
+    url(../image/step2.jpg);
   }
 
   &.third-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
-    url(../image/step3.png);
+    url(../image/step3.jpg);
   }
 }
 /* End Part 1 content */
@@ -300,31 +300,31 @@ body {
   }
 
   &.activity-sports {
-    background-image: url(../image/mask.png), url(../image/activity1.png);
+    background-image: url(../image/mask.png), url(../image/activity1.jpg);
   }
 
   &.activity-wellness {
-    background-image: url(../image/mask.png), url(../image/activity2.png);
+    background-image: url(../image/mask.png), url(../image/activity2.jpg);
   }
 
   &.activity-extreme {
-    background-image: url(../image/mask.png), url(../image/activity3.png);
+    background-image: url(../image/mask.png), url(../image/activity3.jpg);
   }
 
   &.activity-games {
-    background-image: url(../image/mask.png), url(../image/activity4.png);
+    background-image: url(../image/mask.png), url(../image/activity4.jpg);
   }
 
   &.activity-culture {
-    background-image: url(../image/mask.png), url(../image/activity5.png);
+    background-image: url(../image/mask.png), url(../image/activity5.jpg);
   }
 
   &.activity-enjoyment {
-    background-image: url(../image/mask.png), url(../image/activity6.png);
+    background-image: url(../image/mask.png), url(../image/activity6.jpg);
   }
 
   &.activity-travelling {
-    background-image: url(../image/mask.png), url(../image/activity7.png);
+    background-image: url(../image/mask.png), url(../image/activity7.jpg);
   }
 
   &.primary-activity-size {
