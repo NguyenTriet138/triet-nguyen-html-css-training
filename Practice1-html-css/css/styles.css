@@ -108,8 +108,6 @@ body {
 
 /* Start content-cards component define */
 .content-cards {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 85px;
 
   .content-title {
@@ -193,11 +191,11 @@ body {
   color: var(--secondary-color);
   border-radius: 4px;
   cursor: pointer;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 
   .step-content {
-    position: absolute;
-    bottom: 0;
     padding: 0 25px 25px;
 
     .button {
@@ -300,31 +298,31 @@ body {
   }
 
   &.activity-sports {
-    background-image: url(../image/mask.png), url(../image/activity1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity1.jpg);
   }
 
   &.activity-wellness {
-    background-image: url(../image/mask.png), url(../image/activity2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity2.jpg);
   }
 
   &.activity-extreme {
-    background-image: url(../image/mask.png), url(../image/activity3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity3.jpg);
   }
 
   &.activity-games {
-    background-image: url(../image/mask.png), url(../image/activity4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity4.jpg);
   }
 
   &.activity-culture {
-    background-image: url(../image/mask.png), url(../image/activity5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity5.jpg);
   }
 
   &.activity-enjoyment {
-    background-image: url(../image/mask.png), url(../image/activity6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity6.jpg);
   }
 
   &.activity-travelling {
-    background-image: url(../image/mask.png), url(../image/activity7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/activity7.jpg);
   }
 
   &.primary-activity-size {
