@@ -59,10 +59,6 @@ body {
   font-family: var(--primary-font);
 
   /* Start define size button */
-  &.small-btn {
-    padding: 3.5px 10px;
-  }
-
   &.medium-btn {
     padding: 8.5px 20px;
   }
@@ -197,12 +193,17 @@ body {
 
   .step-content {
     padding: 0 25px 25px;
+  }
 
-    .button {
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      font-size: var(--termary-font-size);
-    }
+  .step-sub-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: var(--termary-font-size);
+    background-color: var(--primary-color);
+    padding: 3.5px 10px;
+    border-radius: 40px;
+    line-height: var(--secondary-line-height);
+    margin-right: 186px;
   }
 
   .step-title {
@@ -390,6 +391,21 @@ body {
     }
   }
 
+  .footer-links {
+    line-height: 26px;
+    cursor: pointer;
+  }
+
+  .footer-links li > a {
+    color: var(--termary-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-text-color);
+      font-weight: 550;
+    }
+  }
+
   .footer-logo {
     text-transform: uppercase;
     font-size: var(--secondary-font-size);
@@ -401,17 +417,6 @@ body {
   .footer-title {
     margin-bottom: 11px;
     color: var(--primary-text-color);
-  }
-
-  .footer-links {
-    color: var(--termary-text-color);
-    line-height: 26px;
-    cursor: pointer;
-
-    &:hover {
-      color: var(--primary-text-color);
-      font-weight: 550;
-    }
   }
 
   .footer-designer {
