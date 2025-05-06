@@ -130,6 +130,7 @@ body {
   background-position: center;
   color: var(--secondary-color);
   margin: 0 auto 105px;
+  background-color: rgba(0, 0, 0, 0.2);
 
   /* Top-bar: Dreamshare; login; signup */
   .header-bar {
@@ -190,6 +191,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.2);
 
   .step-content {
     padding: 0 25px 25px;
@@ -290,6 +292,7 @@ body {
   cursor: pointer;
   background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.2);
 
   .activity-title {
     text-align: center;
