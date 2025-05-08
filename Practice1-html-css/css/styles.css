@@ -33,7 +33,6 @@ body {
   padding: 0;
   background-color: var(--secondary-color);
   color: black;
-  font-size: var(--primary-font-size);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
   overflow-x: auto;
@@ -48,79 +47,6 @@ body {
 }
 /* MAIN content end config */
 
-/* Button-card component define */
-.button {
-  background: transparent;
-  border-radius: 20px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  line-height: var(--secondary-line-height);
-  font-size: var(--primary-font-size);
-  font-family: var(--primary-font);
-
-  /* Start define size button */
-  &.medium-btn {
-    padding: 8.5px 20px;
-  }
-
-  &.large-btn {
-    padding: 10px 33.5px;
-  }
-  /* End define size button */
-
-  /* Start define color button */
-  &.primary-btn {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid var(--secondary-color);
-    }
-  }
-
-  &.secondary-btn {
-    color: var(--secondary-color);
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid var(--secondary-color);
-    }
-  }
-
-  &.termary-btn {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid var(--primary-color);
-      color: var(--primary-color);
-    }
-  }
-  /* End define color button */
-}
-/* End button-card define */
-
-/* Start content-cards component define */
-.content-cards {
-  margin-bottom: 85px;
-
-  .content-title {
-    text-align: center;
-    font-size: var(--primary-title-font-size);
-    color: var(--primary-text-color);
-    line-height: var(--primary-line-height);
-    margin-bottom: 35px;
-  }
-
-  .content-container {
-    display: flex;
-    gap: 20px;
-  }
-}
-/* End content-cards component define */
-
 /* HEADER START */
 .header {
   background-image: url(../image/Background.jpg);
@@ -131,52 +57,49 @@ body {
   color: var(--secondary-color);
   margin: 0 auto 105px;
   background-color: rgba(0, 0, 0, 0.2);
+}
 
-  /* Top-bar: Dreamshare; login; signup */
-  .header-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px 248px;
+/* Top-bar: Dreamshare; login; signup */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 248px;
+}
 
-    .buttons {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding-right: 43px;
-    }
-  }
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 43px;
+}
 
-  /* Dreamshare logo */
-  .nav-logo {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: var(--secondary-color);
-    cursor: pointer;
-  }
+.nav-logo {
+  cursor: pointer;
+}
 
-  .header-content {
-    width: 426px;
-    margin: 97.5px auto 0;
-    justify-items: center;
-  }
+.header-content {
+  width: 426px;
+  margin: 107px auto 0;
+  justify-items: center;
+}
 
-  .header-title {
-    text-transform: uppercase;
-    font-size: var(--termary-title-font-size);
-    font-weight: var(--primary-font-weight);
-    text-align: center;
-    line-height: 1.19em;
-    margin-bottom: 32.5px;
-  }
+.header-title {
+  text-transform: uppercase;
+  font-size: var(--termary-title-font-size);
+  font-weight: var(--primary-font-weight);
+  text-align: center;
+  line-height: 1.19em;
+  margin-bottom: 30px;
+}
 
-  .header-description {
-    font-size: var(--secondary-title-font-size);
-    line-height: var(--primary-line-height);
-    margin-bottom: 33px;
-  }
+.header-description {
+  font-size: var(--secondary-title-font-size);
+  line-height: var(--primary-line-height);
+  margin-bottom: 33px;
+  letter-spacing: 0.6px;
 }
 /* HEADER END */
 
@@ -193,30 +116,6 @@ body {
   justify-content: flex-end;
   background-color: rgba(0, 0, 0, 0.2);
 
-  .step-content {
-    padding: 0 25px 25px;
-  }
-
-  .step-sub-title {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: var(--termary-font-size);
-    background-color: var(--primary-color);
-    padding: 3.5px 10px;
-    border-radius: 40px;
-    line-height: var(--secondary-line-height);
-    margin-right: 183px;
-  }
-
-  .step-title {
-    font-size: var(--secondary-title-font-size);
-    margin-top: 30px;
-  }
-
-  .step-description {
-    margin-top: 30px;
-  }
-
   &.first-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
     url(../image/step1.jpg);
@@ -232,6 +131,31 @@ body {
     url(../image/step3.jpg);
   }
 }
+
+.step-content {
+  padding: 0 25px 25px;
+}
+
+.step-sub-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: var(--termary-font-size);
+  background-color: var(--primary-color);
+  padding: 3.5px 10px;
+  border-radius: 40px;
+  line-height: var(--secondary-line-height);
+  margin-right: 183px;
+}
+
+.step-title {
+  font-size: var(--secondary-title-font-size);
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+.step-description {
+  margin-top: 30px;
+}
 /* End Part 1 content */
 
 /* Start Part 2 content */
@@ -246,36 +170,32 @@ body {
 .partners {
   display: flex;
   gap: 20px;
+}
 
-  .partner-card {
-    width: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 16px;
-  }
+.partner-card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
 
-  .partner-image {
-    width: 122px;
-    height: 122px;
-    border-radius: 50%;
-    cursor: pointer;
-    object-fit: cover;
-    object-position: center;
-  }
+.partner-image {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
 
-  .partner-content {
-    text-align: center;
-  }
+.partner-content {
+  text-align: center;
+}
 
-  .partner-name {
-    margin: 17px 0;
-    color: var(--primary-text-color);
-  }
-
-  .partner-description {
-    color: var(--secondary-text-color);
-  }
+.partner-name {
+  margin: 17px 0;
+  color: var(--primary-text-color);
 }
 /* End Part 2 content */
 
@@ -296,9 +216,6 @@ body {
 
   .activity-title {
     text-align: center;
-    font-size: var(--primary-title-font-size);
-    line-height: var(--primary-line-height);
-    color: var(--secondary-color);
   }
 
   &.activity-sports {
@@ -347,19 +264,18 @@ body {
 /* Start Part 4 content */
 .interests-holiday {
   flex-direction: column;
+}
 
-  .create-activity-title {
-    font-size: 18px;
-    line-height: 14px;
-    margin: 8px 0 5px;
-    color: var(--secondary-text-color);
-    text-align: center;
-  }
+.create-activity-title {
+  font-size: 18px;
+  line-height: 14px;
+  margin: 8px 0 5px;
+  color: var(--secondary-text-color);
+  text-align: center;
 }
 
 .input-search {
   width: 300px;
-  font-size: var(--primary-font-size);
   border-radius: 3px;
   border: 1px solid #d4d4d4;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
@@ -385,51 +301,47 @@ body {
   width: 100%;
   max-width: 940px;
   margin: 0 220px;
+}
 
-  .footer-column {
-    flex: 1;
+.footer-column {
+  flex: 1;
 
-    &.footer-designed {
-      text-align: right;
-    }
+  &.footer-designed {
+    text-align: right;
   }
+}
 
-  .footer-links {
-    line-height: 26px;
-    cursor: pointer;
-  }
+.footer-links {
+  line-height: 26px;
+  cursor: pointer;
+}
 
-  .footer-links li > a {
-    color: var(--termary-text-color);
-    text-decoration: none;
+.footer-links li > a {
+  color: var(--termary-text-color);
+  text-decoration: none;
 
-    &:hover {
-      color: var(--primary-text-color);
-      font-weight: 550;
-    }
-  }
-
-  .footer-logo {
-    text-transform: uppercase;
-    font-size: var(--secondary-font-size);
-    color: var(--primary-color);
-    line-height: var(--secondary-line-height);
-    cursor: pointer;
-  }
-
-  .footer-title {
-    margin-bottom: 11px;
+  &:hover {
     color: var(--primary-text-color);
+    font-weight: 550;
   }
+}
 
-  .footer-designer {
-    text-transform: uppercase;
-    font-size: var(--termary-font-size);
-    line-height: var(--secondary-line-height);
-    letter-spacing: 1px;
-    color: #cccccc;
-    padding-right: 8px;
-    margin-bottom: 7px;
-  }
+.footer-logo {
+  cursor: pointer;
+}
+
+.footer-title {
+  margin-bottom: 11px;
+  color: var(--primary-text-color);
+}
+
+.footer-designer {
+  text-transform: uppercase;
+  font-size: var(--termary-font-size);
+  line-height: var(--secondary-line-height);
+  letter-spacing: 1px;
+  color: #cccccc;
+  padding-right: 8px;
+  margin-bottom: 7px;
 }
 /* FOOTER END */
