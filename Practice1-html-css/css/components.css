@@ -1,0 +1,98 @@
+/* Button-card component define */
+.button {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  line-height: var(--secondary-line-height);
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+
+  /* Start define size button */
+  &.medium-btn {
+    padding: 8.5px 20px;
+  }
+
+  &.large-btn {
+    padding: 10px 33.5px;
+  }
+  /* End define size button */
+
+  /* Start define color button */
+  &.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &.secondary-btn {
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &.termary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+  }
+  /* End define color button */
+}
+/* End button-card define */
+
+/* Start content-cards component define */
+.content-cards {
+  margin-bottom: 85px;
+}
+
+.content-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.content-container {
+  display: flex;
+  gap: 20px;
+}
+/* End content-cards component define */
+
+/* Start text-description component define */
+.text-description {
+  font-size: var(--primary-font-size);
+
+  &.primary-text {
+    color: #E3E3E3;
+  }
+
+  &.secondary-text {
+    color: var(--secondary-text-color);
+  }
+}
+/* End text-description component define */
+
+/* Start title-description component define */
+.title-description {
+  font-size: var(--primary-title-font-size);
+  line-height: var(--secondary-line-height);
+
+  &.primary-title {
+    color: var(--primary-text-color);
+  }
+
+  &.secondary-title {
+    color: var(--secondary-color);
+  }
+}
+/* End title-description component define */
