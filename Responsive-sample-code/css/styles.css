@@ -296,9 +296,49 @@ html {
         
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Tablet-ipad screen */
+@media (min-width: 740px) and (max-width: 1024px) {
     .content-section {
         max-width: 100%;
         padding: 64px 16px 112px;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        a {
+            padding: 0 0;
+            line-height: 46px;
+            width: 100%;
+        }
+    }
+
+    .content-section {
+        max-width: 100%;
+        padding: 64px 16px 112px;
+    }
+
+    .member-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tour-item {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .tour-list {
+        flex-direction: column;
+        align-items: center;
     }
 }
