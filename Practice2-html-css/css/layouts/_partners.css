@@ -3,15 +3,6 @@
   align-self: center;
 }
 
-.content-container.content-partners {
-  flex-direction: column;
-}
-
-.partners {
-  display: flex;
-  gap: 20px;
-}
-
 .partner-card {
   width: 220px;
   margin-bottom: 16px;

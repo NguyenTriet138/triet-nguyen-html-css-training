@@ -12,8 +12,8 @@
 }
 /* End text-description component define */
 
-/* Start title-description component define */
-.title-description {
+/* Start text-title component define */
+.text-title {
   font-size: var(--primary-title-font-size);
   line-height: var(--secondary-line-height);
 

@@ -14,7 +14,6 @@
 }
 
 .buttons {
-  gap: 10px;
   padding-right: 43px;
 }
 
@@ -28,15 +27,11 @@
 }
 
 .header-title {
-  text-transform: uppercase;
-  font-size: var(--termary-title-font-size);
-  font-weight: var(--primary-font-weight);
   line-height: 1.19em;
   margin-bottom: 30px;
 }
 
 .header-description {
-  font-size: var(--secondary-title-font-size);
   line-height: var(--primary-line-height);
   margin-bottom: 33px;
   letter-spacing: 0.4px;

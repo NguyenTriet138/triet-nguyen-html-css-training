@@ -7,10 +7,6 @@
   border-radius: 4px;
   cursor: pointer;
 
-  .activity-title {
-    text-align: center;
-  }
-
   &.activity-sports {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity1.jpg);
   }

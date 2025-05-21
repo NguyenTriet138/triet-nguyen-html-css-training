@@ -40,8 +40,6 @@
 }
 
 .footer-designer {
-  text-transform: uppercase;
-  font-size: var(--termary-font-size);
   line-height: var(--secondary-line-height);
   letter-spacing: 1px;
   color: #cccccc;
