@@ -38,15 +38,9 @@
     }
   }
 
-  &.termary-btn {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid var(--primary-color);
-      color: var(--primary-color);
-    }
+  &.primary-btn.text-hover-btn:hover {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
   }
   /* End define color button */
 }

@@ -34,24 +34,20 @@
   font-weight: 500;
 }
 
-.text-font-weight-550 {
-  font-weight: 550;
-}
-
 .text-font-weight-600 {
   font-weight: 600;
 }
 
 .text-sm {
-  font-size: var(--termary-font-size);
-}
-
-.text-md {
   font-size: var(--primary-font-size);
 }
 
-.text-lg {
+.text-md {
   font-size: var(--secondary-font-size);
+}
+
+.text-lg {
+  font-size: var(--termary-font-size);
 }
 
 .title-sm {
