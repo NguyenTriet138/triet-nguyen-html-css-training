@@ -1,36 +1,43 @@
 
-# Practice1 - HTML & CSS UI Rebuild
+# Practice2 - HTML & CSS & Responsive UI Rebuild
 
-This project is a frontend practice to rebuild a web browser UI using **HTML and CSS**, based on a design from Figma. The goal is to improve skills in layout structuring, CSS styling.
+This project is a frontend practice to rebuild a web browser UI follow previous Practice using **HTML, CSS and Responsive**, based on a design from Figma. The goal is to improve skills in layout structuring, CSS styling.
 
 Related links:
 
-- Practice 1 plan: [link](https://docs.google.com/document/d/1cKzNT5TnLhaKU1pSgWnpUj0zf7IM_zg2lTzc_LNLXco/edit?tab=t.5gprxxcpgfwk)
-- Analyze document: [link](https://docs.google.com/document/d/1cKzNT5TnLhaKU1pSgWnpUj0zf7IM_zg2lTzc_LNLXco/edit?tab=t.gcp6co8y3cq4)
-- Figma UI design: [link](https://www.figma.com/design/YEAoU3aYSzBMD94MmL00bmY7/dreamshare-website-template-areto?node-id=0-2&t=BMzzTgAEfuYN8KTm-0)
-- Task management: [link](https://trello.com/b/pptVWDIg/internshiphtml-css-practice1)
+- Practice 2 plan: [link](https://docs.google.com/document/d/1zaxi0n2pnrCP08R6BvxpmoMXAXbnc2oADFJ0GDVNBa8/edit?tab=t.hxo11rwf8eoy)
+- Analyze document: [link](https://docs.google.com/document/d/1zaxi0n2pnrCP08R6BvxpmoMXAXbnc2oADFJ0GDVNBa8/edit?tab=t.5xm6lnxefoot)
+- Figma UI design: [link](https://www.figma.com/design/M35wAb8BM31CdCQ8D8tCHi/dreamshare-website-template-areto--Copy-?node-id=0-1&p=f&t=AkiGvAedARFiBKn5-0)
+- Task management: [link](https://trello.com/b/6l3Lv7nM/internship-html-css-practice-2)
 
 ## 🚀 Project Overview
 
 - 🎨 **Design Source**: Figma UI mockup (not shared publicly)
-- 💻 **Tech Stack**: HTML + CSS (no frameworks)
+- 💻 **Tech Stack**: HTML + CSS + Responsive (no frameworks)
 - 🎯 **Goal**:
-  - Build a website with HTML/CSS from the design.
-  - Familiar with common HTML tags and CSS selectors.
-  - Understand the concepts of Flex and Grid.
-  - Understand about what is the component, how to split 1 the design into component, what is the benefit of split component.
-
+  - Build a responsive site based on design (work smoothies with difference screen size)
+  - Good code structure (use 7-1 patterns method)
 
 ## Requirement
 
-- Work fine on Chrome browser latest version (Version 135.0.7049.96).
-- Use the right HTML Tags.
-- Apply Flexbox and Grid.
+- Follow practice 1.
+- Apply Responsive properties to re-build web UI:
+  - Build a fully responsive website based on the given design.
+  - Ensure smooth usability and layout across common breakpoints.
+- Maintainable code structure:
+  - Styling using 7-1 pattern for scalability and clarity
+  - Keep consistent naming conventions for classes.
+- Clean & reusable CSS
+  - Use variables (and functions, etc.) to avoid code repetition.
+  - Keep components modular for reuse across the site.
+- Performance & accessibility
+  - Getting the code to work cross browsers latest version (Chrome, Firefox, MS Edge).
+  - Optimize media queries and asset loading for performance.
 - Use W3 validator tool to check code syntax HTML-CSS.
 
 ## Tech stacks
 
-- HTML and CSS: in this practice, I will use HTML and CSS to create a web browser UI. In this part will be the application and flexible combination between HTML tags and design on CSS selector.
+- Responsive: Based on the design from practice 1, I will apply responsive to that web UI so that it can be used flexibly on many device screen sizes.
 
 ## How to run
 
@@ -39,10 +46,10 @@ Related links:
 - Clone by Git:
   ```
     git clone <[url](https://github.com/NguyenTriet138/triet-nguyen-html-css-training)>
-    cd Practice1-html-css
+    cd Practice2-html-css
   ```
-- Or download the `.zip` file directly, then extract it to the `Practice1-html-css` folder.
+- Or download the `.zip` file directly, then extract it to the `Practice2-html-css` folder.
 
 2. **Open the project in a browser**
 
-- Open the `index.html` file with any browser (Chrome)
+- Open the `index.html` file with any browser (Chrome, Firefox, MS Edge)
