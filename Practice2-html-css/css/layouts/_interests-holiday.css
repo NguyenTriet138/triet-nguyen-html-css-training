@@ -1,14 +1,9 @@
 /* Start Part 4 content */
-.interests-holiday {
-  flex-direction: column;
-}
-
 .create-activity-title {
   font-size: 18px;
   line-height: 14px;
   margin: 8px 0 5px;
   color: var(--secondary-text-color);
-  text-align: center;
 }
 
 .input-search {

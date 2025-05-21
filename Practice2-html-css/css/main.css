@@ -39,12 +39,3 @@ body {
   line-height: var(--primary-line-height);
   overflow-x: auto;
 }
-
-/* MAIN content config */
-.main-content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-/* MAIN content end config */

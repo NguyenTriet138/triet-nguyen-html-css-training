@@ -8,17 +8,12 @@
 
 /* Top-bar: Dreamshare; login; signup */
 .header-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 1440px;
   margin: 0 auto;
   padding: 40px 248px;
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
   gap: 10px;
   padding-right: 43px;
 }
@@ -30,14 +25,12 @@
 .header-content {
   width: 426px;
   margin: 107px auto 0;
-  justify-items: center;
 }
 
 .header-title {
   text-transform: uppercase;
   font-size: var(--termary-title-font-size);
   font-weight: var(--primary-font-weight);
-  text-align: center;
   line-height: 1.19em;
   margin-bottom: 30px;
 }

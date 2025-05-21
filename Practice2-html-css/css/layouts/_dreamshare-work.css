@@ -6,9 +6,6 @@
   color: var(--secondary-color);
   border-radius: 4px;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 
   &.first-step-img {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),

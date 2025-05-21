@@ -14,9 +14,6 @@
 
 .partner-card {
   width: 220px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 16px;
 }
 
@@ -25,10 +22,6 @@
   height: 122px;
   border-radius: 50%;
   cursor: pointer;
-}
-
-.partner-content {
-  text-align: center;
 }
 
 .partner-name {

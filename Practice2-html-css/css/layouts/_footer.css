@@ -1,15 +1,11 @@
 /* FOOTER START */
 .footer {
-  display: flex;
   padding: 38px 0;
-  justify-content: center;
   border-top: var(--primary-color) 2px solid;
   margin-top: 15px;
 }
 
 .footer-content {
-  display: flex;
-  gap: 20px;
   width: 100%;
   max-width: 940px;
   margin: 0 220px;
@@ -17,10 +13,6 @@
 
 .footer-column {
   flex: 1;
-
-  &.footer-designed {
-    text-align: right;
-  }
 }
 
 .footer-links {
