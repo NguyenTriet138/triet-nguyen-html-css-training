@@ -8,10 +8,9 @@
   margin-bottom: 16px;
 }
 
-.partner-image {
+.avatars {
   width: 122px;
   height: 122px;
-  border-radius: 50%;
   cursor: pointer;
 }
 
