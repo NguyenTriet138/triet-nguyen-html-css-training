@@ -1,0 +1,50 @@
+/* 1. Abtracts */
+@import 'abstracts/_module-background.css';
+@import 'abstracts/_module-layout.css';
+@import 'abstracts/_module-text.css';
+@import 'abstracts/_module-spacing.css';
+@import 'abstracts/_variables.css';
+
+/* 2. Base */
+@import 'base/_reset.css';
+
+/* 3. Components */
+@import 'components/_button.css';
+@import 'components/_content-card.css';
+@import 'components/_text.css';
+
+/* 4. Layout */
+@import 'layouts/_header.css';
+@import 'layouts/_dreamshare-work.css';
+@import 'layouts/_partners.css';
+@import 'layouts/_activities.css';
+@import 'layouts/_interests-holiday.css';
+@import 'layouts/_footer.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.layout-wrapper {
+  min-width: 1440px; /* Set min-width to 1440px */
+}
+
+body {
+  font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+  color: black;
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  overflow-x: auto;
+}
+
+/* MAIN content config */
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+/* MAIN content end config */

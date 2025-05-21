@@ -1,0 +1,24 @@
+/* Start Part 4 content */
+.interests-holiday {
+  flex-direction: column;
+}
+
+.create-activity-title {
+  font-size: 18px;
+  line-height: 14px;
+  margin: 8px 0 5px;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.input-search {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
+  margin-right: 10px;
+  padding: 12px 14px 10px;
+  color: var(--termary-text-color);
+}
+/* End Part 4 content */
+/* BODY-CONTENT END */

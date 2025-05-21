@@ -1,0 +1,15 @@
+/* Start content-cards component define */
+.content-cards {
+  margin-bottom: 85px;
+}
+
+.content-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.content-container {
+  display: flex;
+  gap: 20px;
+}
+/* End content-cards component define */

@@ -1,0 +1,28 @@
+/* Start text-description component define */
+.text-description {
+  font-size: var(--primary-font-size);
+
+  &.primary-text {
+    color: #E3E3E3;
+  }
+
+  &.secondary-text {
+    color: var(--secondary-text-color);
+  }
+}
+/* End text-description component define */
+
+/* Start title-description component define */
+.title-description {
+  font-size: var(--primary-title-font-size);
+  line-height: var(--secondary-line-height);
+
+  &.primary-title {
+    color: var(--primary-text-color);
+  }
+
+  &.secondary-title {
+    color: var(--secondary-color);
+  }
+}
+/* End title-description component define */

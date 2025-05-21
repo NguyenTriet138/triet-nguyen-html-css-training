@@ -1,0 +1,53 @@
+/* Button-card component define */
+.button {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  line-height: var(--secondary-line-height);
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+
+  /* Start define size button */
+  &.medium-btn {
+    padding: 8.5px 20px;
+  }
+
+  &.large-btn {
+    padding: 10px 33.5px;
+  }
+  /* End define size button */
+
+  /* Start define color button */
+  &.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &.secondary-btn {
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &.termary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+  }
+  /* End define color button */
+}
+/* End button-card define */

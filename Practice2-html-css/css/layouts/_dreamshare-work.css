@@ -1,0 +1,54 @@
+/* BODY-CONTENT START */
+/* Start Part 1 content */
+.step-card {
+  width: 300px;
+  height: 400px;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  &.first-step-img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
+    url(../../image/step1.jpg);
+  }
+
+  &.second-step-img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
+    url(../../image/step2.jpg);
+  }
+
+  &.third-step-img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01%), rgba(0, 0, 0, 60%)),
+    url(../../image/step3.jpg);
+  }
+}
+
+.step-content {
+  padding: 0 25px 25px;
+}
+
+.step-sub-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: var(--termary-font-size);
+  background-color: var(--primary-color);
+  padding: 3.5px 10px;
+  border-radius: 40px;
+  line-height: var(--secondary-line-height);
+  margin-right: 183px;
+}
+
+.step-title {
+  font-size: var(--secondary-title-font-size);
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+.step-description {
+  margin-top: 30px;
+}
+/* End Part 1 content */
