@@ -4,7 +4,6 @@
   width: 300px;
   height: 400px;
   color: var(--secondary-color);
-  border-radius: 4px;
   cursor: pointer;
 
   &.first-step-img {
@@ -38,10 +37,5 @@
 
 .step-title {
   line-height: 14px;
-  margin-top: 30px;
-}
-
-.step-description {
-  margin-top: 30px;
 }
 /* End Part 1 content */

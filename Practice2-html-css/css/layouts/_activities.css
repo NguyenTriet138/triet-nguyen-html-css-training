@@ -4,7 +4,6 @@
 }
 
 .activities {
-  border-radius: 4px;
   cursor: pointer;
 
   &.activity-sports {

@@ -28,12 +28,10 @@
 
 .header-title {
   line-height: 1.19em;
-  margin-bottom: 30px;
 }
 
 .header-description {
   line-height: var(--primary-line-height);
-  margin-bottom: 33px;
   letter-spacing: 0.4px;
 }
 /* HEADER END */
