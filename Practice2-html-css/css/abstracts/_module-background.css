@@ -6,8 +6,9 @@
   background-size: cover;
 }
 
-.bg-object-fit {
+.bg-object {
   object-fit: cover;
+  object-position: center;
 }
 
 .bg-norepeat {
@@ -18,3 +19,18 @@
   background-repeat: repeat;
 }
 
+.bg-color-gray {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-color-white {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-color-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.bg-color-red {
+  background-color: rgba(255, 0, 0, 0.2);
+}
