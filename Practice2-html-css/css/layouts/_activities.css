@@ -7,31 +7,31 @@
   cursor: pointer;
 
   &.activity-sports {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity1.jpg);
+    background-image: var(--bg-activities), url(../../image/activity1.jpg);
   }
 
   &.activity-wellness {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity2.jpg);
+    background-image: var(--bg-activities), url(../../image/activity2.jpg);
   }
 
   &.activity-extreme {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity3.jpg);
+    background-image: var(--bg-activities), url(../../image/activity3.jpg);
   }
 
   &.activity-games {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity4.jpg);
+    background-image: var(--bg-activities), url(../../image/activity4.jpg);
   }
 
   &.activity-culture {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity5.jpg);
+    background-image: var(--bg-activities), url(../../image/activity5.jpg);
   }
 
   &.activity-enjoyment {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity6.jpg);
+    background-image: var(--bg-activities), url(../../image/activity6.jpg);
   }
 
   &.activity-travelling {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../image/activity7.jpg);
+    background-image: var(--bg-activities), url(../../image/activity7.jpg);
   }
 
   &.primary-activity-size {
