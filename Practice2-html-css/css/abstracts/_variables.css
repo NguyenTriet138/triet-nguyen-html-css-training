@@ -18,7 +18,16 @@
   --primary-font-weight: 400;
   --primary-line-height: 1em;
   --secondary-line-height: 100%;
+}
 
-  --bg-activities: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  --bg-step-card: linear-gradient(180deg, rgba(0,0,0,0.01%), rgba(0,0,0,60%));
+@property --bg-activities {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+@property --bg-step-card {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: linear-gradient(180deg, rgba(0,0,0,0.01%), rgba(0,0,0,60%));
 }

@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 
+body, button, input, select, textarea {
+  font-family: var(--primary-font);
+}
+
 .layout-wrapper {
   min-width: 1440px; /* Set min-width to 1440px */
 }
 
 body {
-  font-family: var(--primary-font);
   margin: 0;
   padding: 0;
   background-color: var(--secondary-color);
