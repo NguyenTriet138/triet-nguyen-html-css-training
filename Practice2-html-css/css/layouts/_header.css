@@ -1,9 +1,9 @@
 /* HEADER START */
 .header {
   background-image: url(../../images/background.jpg);
-  height: 700px;
   color: var(--secondary-color);
   margin: 0 auto 105px;
+  min-height: 95vh;
 }
 
 /* Top-bar: Dreamshare; login; signup */
@@ -13,7 +13,7 @@
   padding: 40px 248px;
 }
 
-.buttons {
+.authentication-buttons {
   padding-right: 43px;
 }
 
@@ -23,11 +23,11 @@
 
 .header-content {
   width: 426px;
-  margin: 107px auto 0;
+  margin: 7% auto 0;
 }
 
 .header-title {
-  line-height: 1.19em;
+  line-height: var(--ternary-line-height);
 }
 
 .header-description {
