@@ -1,0 +1,16 @@
+.bg-center {
+  background-position: center;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-object {
+  object-fit: cover;
+  object-position: center;
+}
+
+.bg-norepeat {
+  background-repeat: no-repeat;
+}

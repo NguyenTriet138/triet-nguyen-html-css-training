@@ -1,0 +1,10 @@
+# IDE configs
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.pth
+
+# Environment files
+.env
