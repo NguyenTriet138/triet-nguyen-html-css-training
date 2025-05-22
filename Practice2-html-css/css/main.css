@@ -13,14 +13,6 @@
 @import 'components/_content-card.css';
 @import 'components/_text.css';
 
-/* 4. Layout */
-@import 'layouts/_header.css';
-@import 'layouts/_dreamshare-work.css';
-@import 'layouts/_partners.css';
-@import 'layouts/_activities.css';
-@import 'layouts/_interests-holiday.css';
-@import 'layouts/_footer.css';
-
 * {
   box-sizing: border-box;
 }
@@ -34,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--secondary-color);
-  color: black;
+  color: var(--primary-text-color);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
   overflow-x: auto;

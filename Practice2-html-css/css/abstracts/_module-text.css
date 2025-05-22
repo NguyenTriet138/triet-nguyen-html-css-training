@@ -6,20 +6,12 @@
   text-align: right;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-justify {
   text-align: justify;
 }
 
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
 }
 
 .text-decoration-none {

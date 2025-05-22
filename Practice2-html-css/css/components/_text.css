@@ -18,10 +18,6 @@
   line-height: var(--secondary-line-height);
 
   &.primary-title {
-    color: var(--primary-text-color);
-  }
-
-  &.secondary-title {
     color: var(--secondary-color);
   }
 }
