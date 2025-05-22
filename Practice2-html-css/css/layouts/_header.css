@@ -1,0 +1,51 @@
+/* HEADER START */
+.header {
+  background-image: url(../../images/background.jpg);
+  height: 700px;
+  color: var(--secondary-color);
+  margin: 0 auto 105px;
+}
+
+/* Top-bar: Dreamshare; login; signup */
+.header-bar {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 248px;
+}
+
+.buttons {
+  padding-right: 43px;
+}
+
+.nav-logo {
+  cursor: pointer;
+}
+
+.header-content {
+  width: 426px;
+  margin: 107px auto 0;
+}
+
+.header-title {
+  line-height: 1.19em;
+}
+
+.header-description {
+  line-height: var(--primary-line-height);
+  letter-spacing: 0.4px;
+}
+/* HEADER END */
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .header-bar {
+    padding: 40px 50px;
+  }
+
+  .layout-wrapper {
+    min-width: unset;
+  }
+
+  .buttons {
+    padding-right: unset;
+  }
+}

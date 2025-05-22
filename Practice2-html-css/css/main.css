@@ -13,3 +13,6 @@
 @import 'components/_button.css';
 @import 'components/_content-card.css';
 @import 'components/_text.css';
+
+/* 4. Layout */
+@import 'layouts/_header.css';
