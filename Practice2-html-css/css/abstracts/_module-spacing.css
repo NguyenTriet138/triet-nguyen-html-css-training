@@ -10,18 +10,18 @@
   margin-bottom: 30px;
 }
 
-.boder-top {
+.border-top {
   border-top: 2px solid var(--primary-color);
 }
 
-.boder-radius-3 {
+.border-radius-3 {
   border-radius: 3px;
 }
 
-.boder-radius-4 {
+.border-radius-4 {
   border-radius: 4px;
 }
 
-.boder-circle {
+.border-circle {
   border-radius: 50%;
 }
