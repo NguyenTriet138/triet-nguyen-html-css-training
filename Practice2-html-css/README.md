@@ -37,7 +37,7 @@ Related links:
 
 ## Tech stacks
 
-- Responsive: Based on the design from practice 1, I will apply responsive to that web UI so that it can be used flexibly on many device screen sizes.
+- HTML-CSS: Based on the design from practice 1, I will to use HTML-CSS languages and also apply responsive to that web UI so that it can be used flexibly on many device screen sizes.
 
 ## How to run
 

@@ -7,27 +7,9 @@
 
 /* 2. Base */
 @import 'base/_reset.css';
+@import 'base/_config-body.css';
 
 /* 3. Components */
 @import 'components/_button.css';
 @import 'components/_content-card.css';
 @import 'components/_text.css';
-
-* {
-  box-sizing: border-box;
-}
-
-.layout-wrapper {
-  min-width: 1440px; /* Set min-width to 1440px */
-}
-
-body {
-  font-family: var(--primary-font);
-  margin: 0;
-  padding: 0;
-  background-color: var(--secondary-color);
-  color: var(--primary-text-color);
-  font-weight: var(--primary-font-weight);
-  line-height: var(--primary-line-height);
-  overflow-x: auto;
-}
