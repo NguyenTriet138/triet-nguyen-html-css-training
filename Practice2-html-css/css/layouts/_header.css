@@ -41,11 +41,7 @@
     padding: 40px 50px;
   }
 
-  .layout-wrapper {
-    min-width: unset;
-  }
-
   .header-auth {
-    padding-right: unset;
+    padding-right: 0;
   }
 }
