@@ -16,7 +16,6 @@
   --termary-title-font-size: 52px;
 
   --primary-font-weight: 400;
-  --primary-line-height: 1em;
-  --secondary-line-height: 100%;
-  --ternary-line-height: 1.19em;
+  --primary-line-height: 1;
+  --secondary-line-height: 1.19;
 }

@@ -3,7 +3,6 @@
   background-image: url(../../images/background.jpg);
   color: var(--secondary-color);
   margin: 0 auto 105px;
-  min-height: 95vh;
 }
 
 /* Top-bar: Dreamshare; login; signup */
@@ -13,7 +12,7 @@
   padding: 40px 248px;
 }
 
-.authentication-buttons {
+.header-auth {
   padding-right: 43px;
 }
 
@@ -23,11 +22,12 @@
 
 .header-content {
   width: 426px;
-  margin: 7% auto 0;
+  margin: 110px auto 0;
+  padding-bottom: 231px;
 }
 
 .header-title {
-  line-height: var(--ternary-line-height);
+  line-height: var(--secondary-line-height);
 }
 
 .header-description {
@@ -45,7 +45,7 @@
     min-width: unset;
   }
 
-  .authentication-buttons {
+  .header-auth {
     padding-right: unset;
   }
 }

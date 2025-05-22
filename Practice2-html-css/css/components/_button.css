@@ -4,7 +4,7 @@
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
-  line-height: var(--secondary-line-height);
+  line-height: var(--primary-line-height);
   font-size: var(--secondary-font-size);
 
   /* Start define size button */
