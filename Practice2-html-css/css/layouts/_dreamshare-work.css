@@ -37,7 +37,7 @@
   background-color: var(--primary-color);
   padding: 4.5px 12px;
   border-radius: 40px;
-  line-height: var(--secondary-line-height);
+  line-height: var(--primary-line-height);
   display: inline-block
 }
 
@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
   .content-cards .content-container {
     flex-direction: column;
     gap: 10px;
@@ -68,10 +68,6 @@
   }
 
   .step-content {
-    padding-top: 64px;
-  }
-
-  .button.large-btn {
-    width: 100%;
+    padding-top: 65px;
   }
 }
