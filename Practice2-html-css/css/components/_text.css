@@ -1,6 +1,6 @@
 /* Start text-description component define */
 .text-description {
-  font-size: var(--primary-font-size);
+  font-size: var(--secondary-font-size);
 
   &.primary-text {
     color: var(--quaternary-text-color);

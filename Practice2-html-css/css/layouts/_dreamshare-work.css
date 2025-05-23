@@ -1,0 +1,62 @@
+/* BODY-CONTENT START */
+/* Start Part 1 content */
+@property --bg-step-card {
+  syntax: "<image>";
+  inherits: false;
+  initial-value: linear-gradient(180deg, rgba(0,0,0,0.01), rgba(0,0,0,0.6));
+}
+
+.step-card {
+  width: 32%;
+  max-width: 300px;
+  color: var(--secondary-color);
+  cursor: pointer;
+
+  &.first-step-img {
+    background: var(--bg-step-card),
+    url(../../images/step1.jpg);
+  }
+
+  &.second-step-img {
+    background: var(--bg-step-card),
+    url(../../images/step2.jpg);
+  }
+
+  &.third-step-img {
+    background: var(--bg-step-card),
+    url(../../images/step3.jpg);
+  }
+}
+
+.step-content {
+  padding: 224px 25px 25px;
+}
+
+.step-sub-title {
+  letter-spacing: 2px;
+  background-color: var(--primary-color);
+  padding: 4.5px 12px;
+  border-radius: 40px;
+  line-height: var(--secondary-line-height);
+  display: inline-block
+}
+
+.step-title {
+  line-height: 14px;
+}
+/* End Part 1 content */
+
+@media (max-width: 1440px) and (min-width: 768px) {
+
+  .content-container {
+    justify-content: center;
+  }
+
+  .step-content {
+    padding: 215px 17px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
