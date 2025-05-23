@@ -47,16 +47,31 @@
 /* End Part 1 content */
 
 @media (max-width: 1440px) and (min-width: 768px) {
-
-  .content-container {
-    justify-content: center;
-  }
-
   .step-content {
     padding: 215px 17px 20px;
   }
 }
 
 @media (max-width: 768px) {
+  .content-cards .content-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 35px;
+  }
 
+  .content-cards .content-title {
+    margin-bottom: 15px;
+  }
+
+  .step-card {
+    width: 100%;
+  }
+
+  .step-content {
+    padding-top: 64px;
+  }
+
+  .button.large-btn {
+    width: 100%;
+  }
 }
