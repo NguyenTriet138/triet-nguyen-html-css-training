@@ -16,7 +16,7 @@
   padding-right: 43px;
 }
 
-.nav-logo {
+.header-logo {
   cursor: pointer;
 }
 
@@ -61,12 +61,10 @@
   .header-content {
     width: 100%;
     margin: 30px auto 0;
-    padding-left: clamp(20px, 6vw, 100px);
-    padding-right: clamp(20px, 6vw, 100px);
-    padding-bottom: 160px;
+    padding: 0 clamp(20px, 6vw, 100px) 160px;
   }
 
-  .nav-logo {
+  .header-logo {
     margin-top: 100px;
   }
 
@@ -86,7 +84,7 @@
     padding: 0 10px;
   }
 
-  .button.large-btn {
+  .f-width-btn {
     width: 100%;
   }
 }
