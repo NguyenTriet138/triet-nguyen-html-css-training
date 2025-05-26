@@ -52,7 +52,7 @@
 }
 /* End button-card define */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .mobile-button {
     width: 100%;;
   }

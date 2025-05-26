@@ -36,7 +36,7 @@
 }
 /* HEADER END */
 
-@media (max-width: 1440px) and (min-width: 768px) {
+@media (max-width: 1440px) {
   .header {
     margin-bottom: 95px;
   }
@@ -50,7 +50,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header {
     margin-bottom: 35px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);

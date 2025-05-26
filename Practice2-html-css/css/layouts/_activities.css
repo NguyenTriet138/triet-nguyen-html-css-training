@@ -1,0 +1,52 @@
+/* Start Part 3 content */
+@property --bg-activities {
+  syntax: "<image>";
+  inherits: false;
+  initial-value: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+.content-cards .content-container.content-activities {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 310px;
+}
+
+.activities {
+  cursor: pointer;
+
+  &.activity-sports {
+    background-image: var(--bg-activities), url(../../images/activity1.jpg);
+  }
+
+  &.activity-wellness {
+    background-image: var(--bg-activities), url(../../images/activity2.jpg);
+  }
+
+  &.activity-extreme {
+    background-image: var(--bg-activities), url(../../images/activity3.jpg);
+  }
+
+  &.activity-games {
+    background-image: var(--bg-activities), url(../../images/activity4.jpg);
+  }
+
+  &.activity-culture {
+    background-image: var(--bg-activities), url(../../images/activity5.jpg);
+  }
+
+  &.activity-enjoyment {
+    background-image: var(--bg-activities), url(../../images/activity6.jpg);
+  }
+
+  &.activity-travelling {
+    background-image: var(--bg-activities), url(../../images/activity7.jpg);
+  }
+
+  &.primary-activity-size {
+    max-width: 300px;    /* responsive for tablet screen */
+  }
+
+  &.secondary-activity-size {
+    grid-column: span 2 / span 2;
+  }
+}
+/* End Part 3 content */
