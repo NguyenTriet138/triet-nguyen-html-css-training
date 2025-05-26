@@ -13,32 +13,29 @@
   cursor: pointer;
 
   &.first-step-img {
-    background: var(--bg-step-card),
-    url(../../images/step1.jpg);
+    background: var(--bg-step-card), url(../../images/step1.jpg);
     background-position: center;
   }
 
   &.second-step-img {
-    background: var(--bg-step-card),
-    url(../../images/step2.jpg);
+    background: var(--bg-step-card), url(../../images/step2.jpg);
     background-position: center;
   }
 
   &.third-step-img {
-    background: var(--bg-step-card),
-    url(../../images/step3.jpg);
+    background: var(--bg-step-card), url(../../images/step3.jpg);
     background-position: center;
   }
 }
 
 .step-content {
-  padding: 224px 25px 25px;
+  padding: 229px 25px 21px 25px;
 }
 
 .step-sub-title {
   letter-spacing: 2px;
   background-color: var(--primary-color);
-  padding: 4.5px 12px;
+  padding: 5px 12px;
   border-radius: 40px;
   line-height: var(--primary-line-height);
   display: inline-block
@@ -51,30 +48,20 @@
 
 @media (max-width: 1440px) and (min-width: 768px) {
   .step-content {
-    padding: 215px 17px 20px;
+    padding: 220px 20px 16px;
   }
 }
 
-@media (max-width: 767.5px) {
-  .content-cards .content-container {
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 35px;
-  }
-
-  .content-cards .content-title {
-    margin-bottom: 15px;
-  }
-
+@media (max-width: 768px) {
   .step-card {
     width: 100%;
   }
 
   .second-step-img .step-content {
-    padding-top: 79px;
+    padding-top: 88px;
   }
 
   .step-content {
-    padding-top: 65px;
+    padding: 74px 30px 16px 20px;
   }
 }
