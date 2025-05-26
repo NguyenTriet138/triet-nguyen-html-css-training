@@ -21,7 +21,7 @@
 }
 
 .header-content {
-  width: 426px;
+  width: 432px;
   margin: 110px auto 0;
   padding-bottom: 231px;
 }
@@ -31,7 +31,7 @@
 }
 
 .header-description {
-  line-height: var(--primary-line-height);
+  line-height: 24.5px;
   letter-spacing: 0.4px;
 }
 /* HEADER END */
@@ -60,8 +60,8 @@
 
   .header-content {
     width: 100%;
-    margin: 30px auto 0;
-    padding: 0 clamp(20px, 6vw, 100px) 160px;
+    margin: 28px auto 0;
+    padding: 0 clamp(20px, 6vw, 100px) 153px;
   }
 
   .header-logo {
@@ -75,12 +75,12 @@
   .header-title {
     font-size: 30px;
     margin-bottom: 15px;
-    padding: 0 16px;
+    padding: 0 15px;
   }
 
   .header-description {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     padding: 0 10px;
   }
 
