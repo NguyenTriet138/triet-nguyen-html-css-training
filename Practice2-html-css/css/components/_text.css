@@ -15,7 +15,7 @@
 /* Start text-title component define */
 .text-title {
   font-size: var(--primary-title-font-size);
-  line-height: var(--secondary-line-height);
+  line-height: var(--primary-line-height);
 
   &.primary-title {
     color: var(--secondary-color);

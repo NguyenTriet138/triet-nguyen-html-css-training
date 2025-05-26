@@ -1,0 +1,86 @@
+/* HEADER START */
+.header {
+  background-image: url(../../images/background.jpg);
+  color: var(--secondary-color);
+  margin: 0 auto 105px;
+}
+
+/* Top-bar: Dreamshare; login; signup */
+.header-bar {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 248px;
+}
+
+.header-auth {
+  padding-right: 43px;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+.header-content {
+  width: 432px;
+  margin: 110px auto 0;
+  padding-bottom: 231px;
+}
+
+.header-title {
+  line-height: var(--secondary-line-height);
+}
+
+.header-description {
+  line-height: 24.5px;
+  letter-spacing: 0.4px;
+}
+/* HEADER END */
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .header-bar {
+    padding: 40px 50px;
+  }
+
+  .header-auth {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 0 auto 35px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .header-bar {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-content {
+    width: 100%;
+    margin: 28px auto 0;
+    padding: 0 clamp(20px, 6vw, 100px) 153px;
+  }
+
+  .header-logo {
+    margin-top: 100px;
+  }
+
+  .header-auth {
+    padding: 20px 0 0;
+  }
+
+  .header-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+  }
+
+  .header-description {
+    font-size: 18px;
+    margin-bottom: 17px;
+    padding: 0 10px;
+  }
+}
