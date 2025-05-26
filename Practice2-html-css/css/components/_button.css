@@ -51,3 +51,9 @@
   /* End define color button */
 }
 /* End button-card define */
+
+@media (max-width: 768px) {
+  .mobile-button {
+    width: 100%;;
+  }
+}
