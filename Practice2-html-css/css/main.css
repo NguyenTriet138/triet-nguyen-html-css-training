@@ -14,5 +14,6 @@
 @import 'components/_content-card.css';
 @import 'components/_text.css';
 
-/* 4. Layout */
+/* 4. Layouts */
 @import 'layouts/_header.css';
+@import 'layouts/_dreamshare-steps.css';
