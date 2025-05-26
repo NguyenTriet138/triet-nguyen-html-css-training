@@ -5,6 +5,23 @@
 
 .partners {
   grid-template-columns: repeat(4, minmax(220px, 0.25fr));
+  grid-template-areas: "p1 p2 p3 p4"; /* layout partners */
+}
+
+.partner-index-1 {
+  grid-area: p1;
+}
+
+.partner-index-2 {
+  grid-area: p2;
+}
+
+.partner-index-3 {
+  grid-area: p3;
+}
+
+.partner-index-4 {
+  grid-area: p4;
 }
 
 .partner-card {
@@ -18,7 +35,7 @@
 }
 
 .partner-name {
-  margin: 17px 0 20px;
+  margin: 20px 0 25px;
   color: var(--primary-text-color);
 }
 /* End Part 2 content */
@@ -26,12 +43,18 @@
 @media (max-width: 1440px) and (min-width: 768px) {
   .partners {
     grid-template-columns: repeat(2, minmax(236px, 0.45fr));
+    grid-template-areas: "p1 p3" "p2 p4";
+  }
+
+  .partner-card:last-child {
+    margin-bottom: 20px;
   }
 }
 
-@media (max-width: 767.5px) {
+@media (max-width: 767px) {
   .partners {
     grid-template-columns: repeat(1, minmax(220px, 236px));
+    grid-template-areas: "p1" "p3" "p2" "p4";
     gap: 0px;
   }
 
@@ -39,7 +62,7 @@
     margin-bottom: 26px;
   }
 
-  .button.see-other-btn {
-    width: 100%;
+  .content-container.partners-container {
+    padding: 0 10px;
   }
 }
