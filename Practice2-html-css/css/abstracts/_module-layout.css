@@ -11,8 +11,8 @@
   flex-wrap: wrap;
 }
 
-.wrap-reverse {
-  flex-wrap: wrap-reverse;
+.col-reverse {
+  flex-direction: column-reverse;
 }
 
 .justify-center {

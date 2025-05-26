@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dreamshare Web Page</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="icon" href="./image/secondary-logo.png" type="image/png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/secondary-logo.png" type="image/png" sizes="16x16">
   </head>
   <body>
     <!-- ==== START Header ====  -->
     <header class="header bg-cover bg-center bg-norepeat">
-      <div class="header-bar d-flex justify-space-between align-center wrap-reverse">
-        <img class="nav-logo" src="./image/primary-logo.png" alt="DREAMSHARE-logo">
-        <div class="buttons d-flex align-center gap-10">
+      <div class="header-bar d-flex justify-space-between align-center">
+        <img class="header-logo" src="./images/primary-logo.png" alt="DREAMSHARE-logo">
+        <div class="header-auth d-flex align-center gap-10">
           <button type="button" class="button medium-btn secondary-btn">Log in</button>
           <button type="button" class="button medium-btn secondary-btn">Sign Up</button>
         </div>
       </div>
-      <div class="header-content justify-items-center">
+      <div class="header-content d-flex d-flex-column align-center">
         <h2 class="header-title text-center text-uppercase title-lg text-font-weight-400 mb-30">Share your holiday dream</h2>
-        <p class="header-description title-md mb-30">And find the perfect partner to fullfill it</p>
-        <button type="button" class="button large-btn primary-btn">Find your holiday partner</button>
+        <p class="header-description title-md mb-30 text-center">And find the perfect partner to fullfill it</p>
+        <button type="button" class="button large-btn primary-btn mobile-button">Find your holiday partner</button>
       </div>
     </header>
     <!-- ==== END Header ====  -->
@@ -59,32 +60,32 @@
       </section>
       <!--Section 2: Meet partners -->
       <section class="content-cards">
-        <h3 class="content-title text-title text-center">Meet a partner for your best holiday</h3>
-        <div class="content-container d-flex gap-20 d-flex-column">
+        <h3 class="content-title text-title">Meet a partner for your best holiday</h3>
+        <div class="content-container d-flex-column">
           <div class="d-flex gap-20">
             <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./image/avatar1.jpg" alt="Bradley Hunter image" class="avatars border-circle bg-object">
+              <img src="./images/avatar1.jpg" alt="Bradley Hunter image" class="avatars border-circle bg-object">
               <figcaption class="text-center">
                 <h4 class="partner-name text-description">Bradley Hunter</h4>
                 <p class="text-description secondary-text">Based in Chicago. I love playing tennis and loud music.</p>
               </figcaption>
             </figure>
             <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./image/avatar2.jpg" alt="Marie Bennett image" class="avatars border-circle bg-object">
+              <img src="./images/avatar2.jpg" alt="Marie Bennett image" class="avatars border-circle bg-object">
               <figcaption class="text-center">
                 <h4 class="partner-name text-description">Marie Bennett</h4>
                 <p class="text-description secondary-text">Currently living in Colorado. Lover of art, languages and travelling.</p>
               </figcaption>
             </figure>
             <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./image/avatar3.jpg" alt="Diana Wells image" class="avatars border-circle bg-object">
+              <img src="./images/avatar3.jpg" alt="Diana Wells image" class="avatars border-circle bg-object">
               <figcaption class="text-center">
                 <h4 class="partner-name text-description">Diana Wells</h4>
                 <p class="text-description secondary-text">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
               </figcaption>
             </figure>
             <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./image/avatar4.jpg" alt="Christopher Pierce image" class="avatars border-circle bg-object">
+              <img src="./images/avatar4.jpg" alt="Christopher Pierce image" class="avatars border-circle bg-object">
               <figcaption class="text-center">
                 <h4 class="partner-name text-description">Christopher Pierce</h4>
                 <p class="text-description secondary-text">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
@@ -96,8 +97,8 @@
       </section>
       <!--Section 3: Discover activity ideas -->
       <section class="content-cards">
-        <h3 class="content-title text-title text-center">Discover holiday activity ideas</h3>
-        <div class="content-container d-flex gap-20 content-activities">
+        <h3 class="content-title text-title">Discover holiday activity ideas</h3>
+        <div class="content-container content-activities">
           <article class="activities border-radius-4 primary-activity-size activity-sports bg-center bg-cover bg-norepeat d-flex justify-center align-center">
             <h4 class="text-center text-title primary-title">Sports and Activities</h4>
           </article>
@@ -123,8 +124,8 @@
       </section>
       <!--Section 4: Create your holiday activity -->
       <section class="content-cards">
-        <h3 class="content-title text-title text-center">Create your holiday activity</h3>
-        <div class="content-container d-flex gap-20 d-flex-column">
+        <h3 class="content-title text-title">Create your holiday activity</h3>
+        <div class="content-container d-flex-column">
           <h4 class="create-activity-title text-center">Hi! What are your holiday interests?</h4>
           <form>
             <input type="search" name="search" class="input-search text-description" placeholder="Enter your interests">
@@ -139,7 +140,7 @@
     <footer class="footer d-flex justify-center mt-15 border-top">
       <div class="footer-content d-flex gap-20">
         <div class="footer-column">
-          <img src="./image/secondary-logo.png" alt="DREAMSHARE-logo" class="footer-logo">
+          <img src="./images/secondary-logo.png" alt="DREAMSHARE-logo" class="footer-logo">
           <!-- <h3 class="footer-logo">Dreamshare</h3> -->
         </div>
         <div class="footer-column">
@@ -158,7 +159,7 @@
         </div>
         <div class="footer-column text-right">
           <p class="footer-designer text-uppercase text-sm">Designed by</p>
-          <img src="./image/logo-design.jpg" alt="Areto logo"/>
+          <img src="./images/logo-design.jpg" alt="Areto logo"/>
         </div>
       </div>
     </footer>
