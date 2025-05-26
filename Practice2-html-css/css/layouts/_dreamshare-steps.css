@@ -1,0 +1,67 @@
+/* BODY-CONTENT START */
+/* Start Part 1 content */
+@property --bg-step-card {
+  syntax: "<image>";
+  inherits: false;
+  initial-value: linear-gradient(180deg, rgba(0,0,0,0.01), rgba(0,0,0,0.6));
+}
+
+.step-card {
+  width: 32%;
+  max-width: 300px;
+  color: var(--secondary-color);
+  cursor: pointer;
+
+  &.first-step-img {
+    background: var(--bg-step-card), url(../../images/step1.jpg);
+    background-position: center;
+  }
+
+  &.second-step-img {
+    background: var(--bg-step-card), url(../../images/step2.jpg);
+    background-position: center;
+  }
+
+  &.third-step-img {
+    background: var(--bg-step-card), url(../../images/step3.jpg);
+    background-position: center;
+  }
+}
+
+.step-content {
+  padding: 229px 25px 21px 25px;
+}
+
+.step-sub-title {
+  letter-spacing: 2px;
+  background-color: var(--primary-color);
+  padding: 5px 12px;
+  border-radius: 40px;
+  line-height: var(--primary-line-height);
+  display: inline-block
+}
+
+.step-title {
+  line-height: 14px;
+}
+/* End Part 1 content */
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .step-content {
+    padding: 220px 20px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .step-card {
+    width: 100%;
+  }
+
+  .second-step-img .step-content {
+    padding-top: 88px;
+  }
+
+  .step-content {
+    padding: 74px 30px 16px 20px;
+  }
+}

@@ -11,3 +11,15 @@
   margin-bottom: 85px;
 }
 /* End content-cards component define */
+
+@media (max-width: 768px) {
+  .content-cards .content-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 35px;
+  }
+
+  .content-cards .content-title {
+    margin-bottom: 15px;
+  }
+}
