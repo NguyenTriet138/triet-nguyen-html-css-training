@@ -40,7 +40,7 @@
 }
 /* End Part 2 content */
 
-@media (max-width: 1440px) and (min-width: 768px) {
+@media (max-width: 1440px) {
   .partners {
     grid-template-columns: repeat(2, minmax(236px, 0.45fr));
     grid-template-areas: "p1 p3" "p2 p4";

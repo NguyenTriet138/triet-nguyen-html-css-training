@@ -46,7 +46,7 @@
 }
 /* End Part 1 content */
 
-@media (max-width: 1440px) and (min-width: 768px) {
+@media (max-width: 1440px) {
   .step-content {
     padding: 220px 20px 16px;
   }
