@@ -1,0 +1,45 @@
+/* Start Part 2 content */
+.button.see-other-btn {
+  align-self: center;
+}
+
+.partners {
+  grid-template-columns: repeat(4, minmax(220px, 0.25fr));
+}
+
+.partner-card {
+  margin-bottom: 16px;
+}
+
+.avatars {
+  width: 122px;
+  height: 122px;
+  cursor: pointer;
+}
+
+.partner-name {
+  margin: 17px 0 20px;
+  color: var(--primary-text-color);
+}
+/* End Part 2 content */
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .partners {
+    grid-template-columns: repeat(2, minmax(236px, 0.45fr));
+  }
+}
+
+@media (max-width: 767.5px) {
+  .partners {
+    grid-template-columns: repeat(1, minmax(220px, 236px));
+    gap: 0px;
+  }
+
+  .partner-card:last-child {
+    margin-bottom: 26px;
+  }
+
+  .button.see-other-btn {
+    width: 100%;
+  }
+}
