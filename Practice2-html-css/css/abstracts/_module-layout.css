@@ -59,3 +59,9 @@
 .grid-col-span-2 {
   grid-column: span 2 / span 2;
 }
+
+@media (max-width: 767px) {
+  .grid-col-mobile {
+    grid-column: span 1 / span 1;
+  }
+}
