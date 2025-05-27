@@ -34,4 +34,8 @@
   .mt-mobile-30 {
     margin-top: 30px;
   }
+
+  .plr-mobile-10 {
+    padding: 0 10px;
+  }
 }
