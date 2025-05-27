@@ -15,7 +15,6 @@
 
 .footer-links {
   line-height: 26px;
-  cursor: pointer;
 }
 
 .footer-links li > a {
@@ -26,10 +25,6 @@
     color: var(--primary-text-color);
     font-weight: 550;
   }
-}
-
-.footer-logo {
-  cursor: pointer;
 }
 
 .footer-title {
@@ -45,3 +40,9 @@
   margin-bottom: 7px;
 }
 /* FOOTER END */
+
+@media (max-width: 1440px) {
+  .footer-content {
+    margin: 0 calc(0.25rem * 10);
+  }
+}
