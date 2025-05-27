@@ -10,7 +10,6 @@
   width: 32%;
   max-width: 300px;
   color: var(--secondary-color);
-  cursor: pointer;
 
   &.first-step-img {
     background: var(--bg-step-card), url(../../images/step1.jpg);

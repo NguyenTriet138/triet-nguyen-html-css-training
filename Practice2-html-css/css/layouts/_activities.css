@@ -10,39 +10,39 @@
   grid-auto-rows: 310px;
 }
 
-.activities {
-  cursor: pointer;
-
-  &.activity-sports {
-    background-image: var(--bg-activities), url(../../images/activity1.jpg);
-  }
-
-  &.activity-wellness {
-    background-image: var(--bg-activities), url(../../images/activity2.jpg);
-  }
-
-  &.activity-extreme {
-    background-image: var(--bg-activities), url(../../images/activity3.jpg);
-  }
-
-  &.activity-games {
-    background-image: var(--bg-activities), url(../../images/activity4.jpg);
-  }
-
-  &.activity-culture {
-    background-image: var(--bg-activities), url(../../images/activity5.jpg);
-  }
-
-  &.activity-enjoyment {
-    background-image: var(--bg-activities), url(../../images/activity6.jpg);
-  }
-
-  &.activity-travelling {
-    background-image: var(--bg-activities), url(../../images/activity7.jpg);
-  }
+.activity-sports {
+  background-image: var(--bg-activities), url(../../images/activity1.jpg);
 }
 
-.activities:not(:nth-child(5)):not(:nth-child(6)) {
+.activity-wellness {
+  background-image: var(--bg-activities), url(../../images/activity2.jpg);
+}
+
+.activity-extreme {
+  background-image: var(--bg-activities), url(../../images/activity3.jpg);
+}
+
+.activity-games {
+  background-image: var(--bg-activities), url(../../images/activity4.jpg);
+}
+
+.activity-culture {
+  background-image: var(--bg-activities), url(../../images/activity5.jpg);
+}
+
+.activity-enjoyment {
+  background-image: var(--bg-activities), url(../../images/activity6.jpg);
+}
+
+.activity-travelling {
+  background-image: var(--bg-activities), url(../../images/activity7.jpg);
+}
+
+.activities:nth-child(1),
+.activities:nth-child(2),
+.activities:nth-child(3),
+.activities:nth-child(4),
+.activities:nth-child(7) {
   max-width: 300px;
 }
 
@@ -57,7 +57,11 @@
     grid-auto-rows: 120px;
   }
 
-  .activities:not(:nth-child(5)):not(:nth-child(6)) {
+  .activities:nth-child(1),
+  .activities:nth-child(2),
+  .activities:nth-child(3),
+  .activities:nth-child(4),
+  .activities:nth-child(7) {
     width: 100%;
   }
 

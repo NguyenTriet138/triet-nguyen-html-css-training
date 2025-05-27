@@ -51,3 +51,7 @@
 .d-grid {
   display: grid;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
