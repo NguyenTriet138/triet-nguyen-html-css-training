@@ -31,6 +31,10 @@
   align-items: center;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
 .justify-items-center {
   justify-items: center;
 }
