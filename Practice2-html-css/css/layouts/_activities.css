@@ -40,14 +40,14 @@
   &.activity-travelling {
     background-image: var(--bg-activities), url(../../images/activity7.jpg);
   }
+}
 
-  &.primary-activity-size {
-    max-width: 300px;    /* responsive for tablet screen */
-  }
+.activities:not(:nth-child(5)):not(:nth-child(6)) {
+  max-width: 300px;
+}
 
-  &.secondary-activity-size {
-    grid-column: span 2 / span 2;
-  }
+.activities:nth-child(5), .activities:nth-child(6) {
+  grid-column: span 2 / span 2;
 }
 /* End Part 3 content */
 
@@ -57,13 +57,11 @@
     grid-auto-rows: 120px;
   }
 
-  .activities {
-    &.primary-activity-size {
-      width: 100%;
-    }
+  .activities:not(:nth-child(5)):not(:nth-child(6)) {
+    width: 100%;
+  }
 
-    &.secondary-activity-size {
-      grid-column: span 1 / span 1;
-    }
+  .activities:nth-child(5), .activities:nth-child(6) {
+    grid-column: span 1 / span 1;
   }
 }
