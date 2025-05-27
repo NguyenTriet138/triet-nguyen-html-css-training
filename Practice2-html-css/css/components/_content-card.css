@@ -12,11 +12,11 @@
 }
 /* End content-cards component define */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .content-cards .content-container {
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
 
   .content-cards .content-title {
