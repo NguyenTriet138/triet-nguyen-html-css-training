@@ -42,6 +42,10 @@
   font-size: var(--termary-font-size);
 }
 
+.text-xl {
+  font-size: var(--quaternary-font-size);
+}
+
 .title-sm {
   font-size: var(--primary-title-font-size);
 }
