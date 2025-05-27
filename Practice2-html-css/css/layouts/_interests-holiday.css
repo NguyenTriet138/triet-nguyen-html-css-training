@@ -14,3 +14,19 @@
 }
 /* End Part 4 content */
 /* BODY-CONTENT END */
+
+@media (max-width: 767.5px) {
+  .create-activity-title {
+    margin: 0 0 15px;
+  }
+
+  .form-search {
+    padding: 0 10px;
+  }
+
+  .input-search {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
