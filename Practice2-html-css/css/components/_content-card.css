@@ -21,5 +21,6 @@
 
   .content-cards .content-title {
     margin-bottom: 15px;
+    padding: 0 10px;
   }
 }
