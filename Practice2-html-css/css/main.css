@@ -3,6 +3,7 @@
 @import 'abstracts/_module-layout.css';
 @import 'abstracts/_module-text.css';
 @import 'abstracts/_module-spacing.css';
+@import 'abstracts/_module-interactivity.css';
 @import 'abstracts/_variables.css';
 
 /* 2. Base */
@@ -19,3 +20,4 @@
 @import 'layouts/_partners.css';
 @import 'layouts/_dreamshare-steps.css';
 @import 'layouts/_interests-holiday.css';
+@import 'layouts/_activities.css';
