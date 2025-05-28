@@ -23,7 +23,7 @@
 
   &:hover {
     color: var(--primary-text-color);
-    font-weight: 550;
+    font-weight: 600;
   }
 }
 
