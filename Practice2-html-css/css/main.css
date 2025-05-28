@@ -1,9 +1,9 @@
 /* 1. Abtracts */
-@import 'abstracts/_module-background.css';
-@import 'abstracts/_module-layout.css';
-@import 'abstracts/_module-text.css';
-@import 'abstracts/_module-spacing.css';
-@import 'abstracts/_module-interactivity.css';
+@import 'abstracts/_background.css';
+@import 'abstracts/_layout.css';
+@import 'abstracts/_typography.css';
+@import 'abstracts/_spacing.css';
+@import 'abstracts/_interactivity.css';
 @import 'abstracts/_variables.css';
 
 /* 2. Base */
@@ -14,6 +14,7 @@
 @import 'components/_button.css';
 @import 'components/_content-card.css';
 @import 'components/_text.css';
+@import 'components/_links.css';
 
 /* 4. Layouts */
 @import 'layouts/_header.css';
@@ -21,3 +22,4 @@
 @import 'layouts/_dreamshare-steps.css';
 @import 'layouts/_interests-holiday.css';
 @import 'layouts/_activities.css';
+@import 'layouts/_footer.css';
