@@ -14,6 +14,7 @@
 @import 'components/_button.css';
 @import 'components/_content-card.css';
 @import 'components/_text.css';
+@import 'components/_links.css';
 
 /* 4. Layouts */
 @import 'layouts/_header.css';

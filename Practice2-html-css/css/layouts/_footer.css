@@ -17,13 +17,13 @@
   line-height: 26px;
 }
 
-.footer-links li > a {
+.link {
   color: var(--termary-text-color);
   text-decoration: none;
 
   &:hover {
     color: var(--primary-text-color);
-    font-weight: 600;
+    font-weight: var(--seconday-font-weight);
   }
 }
 
@@ -35,7 +35,7 @@
 .footer-designer {
   line-height: var(--secondary-line-height);
   letter-spacing: 1px;
-  color: #cccccc;
+  color: var(--quinary-text-color);
   padding-right: 8px;
   margin-bottom: 7px;
 }
