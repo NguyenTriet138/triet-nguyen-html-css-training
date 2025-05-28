@@ -2,16 +2,6 @@
   line-height: 26px;
 }
 
-.link {
-  color: var(--termary-text-color);
-  text-decoration: none;
-
-  &:hover {
-    color: var(--primary-text-color);
-    font-weight: var(--seconday-font-weight);
-  }
-}
-
 @media (max-width: 767px) {
   .list-links {
     display: flex;
