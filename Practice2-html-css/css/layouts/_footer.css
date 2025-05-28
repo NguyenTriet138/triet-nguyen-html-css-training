@@ -40,3 +40,34 @@
   margin-bottom: 7px;
 }
 /* FOOTER END */
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer-content {
+    margin: 0 calc(0.25rem * 5);
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .footer-title {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  .footer-designer {
+    text-align: center;
+    padding-right: 0;
+  }
+}
