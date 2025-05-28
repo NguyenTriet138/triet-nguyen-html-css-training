@@ -14,7 +14,6 @@
 @import 'components/_button.css';
 @import 'components/_content-card.css';
 @import 'components/_text.css';
-@import 'components/_links.css';
 
 /* 4. Layouts */
 @import 'layouts/_header.css';
@@ -22,4 +21,3 @@
 @import 'layouts/_dreamshare-steps.css';
 @import 'layouts/_interests-holiday.css';
 @import 'layouts/_activities.css';
-@import 'layouts/_footer.css';

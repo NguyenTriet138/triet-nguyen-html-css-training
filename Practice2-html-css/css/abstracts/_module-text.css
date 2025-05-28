@@ -46,10 +46,6 @@
   font-size: var(--quaternary-font-size);
 }
 
-.title-s {
-  font-size: var(--secondary-font-size);
-}
-
 .title-sm {
   font-size: var(--primary-title-font-size);
 }

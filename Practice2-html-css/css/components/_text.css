@@ -3,15 +3,11 @@
   font-size: var(--secondary-font-size);
 
   &.primary-text {
-    color: var(--primary-text-color);
+    color: var(--quaternary-text-color);
   }
 
   &.secondary-text {
     color: var(--secondary-text-color);
-  }
-
-  &.termary-text {
-    color: var(--quaternary-text-color);
   }
 }
 /* End text-description component define */
