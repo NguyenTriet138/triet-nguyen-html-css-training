@@ -10,7 +10,7 @@
     color: var(--secondary-text-color);
   }
 
-  &.termary-text {
+  &.ternary-text {
     color: var(--quaternary-text-color);
   }
 }

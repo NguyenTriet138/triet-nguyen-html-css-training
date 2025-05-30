@@ -3,22 +3,22 @@
   --secondary-color: #FFF;
   --primary-text-color: #444;
   --secondary-text-color: #666;
-  --termary-text-color: #999;
+  --ternary-text-color: #999;
   --quaternary-text-color: #E3E3E3;
   --quinary-text-color: #CCC;
 
   --primary-font: 'Roboto', sans-serif;
   --primary-font-size: 10px;
   --secondary-font-size: 14px;
-  --termary-font-size: 16px;
+  --ternary-font-size: 16px;
   --quaternary-font-size: 18px;
 
   --primary-title-font-size: 22px;
   --secondary-title-font-size: 24px;
-  --termary-title-font-size: 52px;
+  --ternary-title-font-size: 52px;
 
   --primary-font-weight: 400;
-  --seconday-font-weight: 600;
+  --secondary-font-weight: 600;
   --primary-line-height: 1;
   --secondary-line-height: 1.19;
 }

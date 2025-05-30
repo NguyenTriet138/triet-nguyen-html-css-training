@@ -7,7 +7,7 @@
 }
 
 .text-lg {
-  font-size: var(--termary-font-size);
+  font-size: var(--ternary-font-size);
 }
 
 .text-xl {
@@ -27,7 +27,7 @@
 }
 
 .title-xl {
-  font-size: var(--termary-title-font-size);
+  font-size: var(--ternary-title-font-size);
 }
 
 .text-center {
