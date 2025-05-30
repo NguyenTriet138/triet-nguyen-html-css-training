@@ -19,6 +19,8 @@
 
   --primary-font-weight: 400;
   --secondary-font-weight: 600;
-  --primary-line-height: 1;
-  --secondary-line-height: 1.19;
+  --sm-line-height: 1.14;
+  --md-line-height: 1.17;
+  --lg-line-height: 1.18;
+  --xl-line-height: 1.2;
 }

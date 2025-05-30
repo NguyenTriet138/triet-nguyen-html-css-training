@@ -36,7 +36,7 @@
   background-color: var(--primary-color);
   padding: 5px 12px;
   border-radius: 40px;
-  line-height: var(--primary-line-height);
+  line-height: var(--xl-line-height);
   display: inline-block
 }
 

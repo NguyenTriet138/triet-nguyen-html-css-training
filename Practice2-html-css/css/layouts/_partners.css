@@ -1,10 +1,14 @@
 /* Start Part 2 content */
+.partners-section {
+  margin-top: -10px;
+}
+
 .partners {
   grid-template-columns: repeat(4, minmax(220px, 0.25fr));
 }
 
 .partner-card {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .avatars {
@@ -13,8 +17,9 @@
 }
 
 .partner-name {
-  margin: 20px 0 25px;
+  margin: 20px 0 23px;
   color: var(--primary-text-color);
+  line-height: var(--sm-line-height);
 }
 /* End Part 2 content */
 
@@ -45,6 +50,10 @@
 }
 
 @media (max-width: 767px) {
+  .partners-section {
+    margin-top: -5px;
+  }
+
   .partners {
     grid-template-columns: repeat(1, minmax(220px, 236px));
     gap: 0px;

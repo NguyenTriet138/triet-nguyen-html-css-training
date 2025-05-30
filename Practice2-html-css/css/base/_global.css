@@ -9,6 +9,6 @@ body {
   background-color: var(--secondary-color);
   color: var(--primary-text-color);
   font-weight: var(--primary-font-weight);
-  line-height: var(--primary-line-height);
+  line-height: 1;
   overflow-x: auto;
 }

@@ -19,10 +19,11 @@
 
 .footer-title {
   margin-bottom: 11px;
+  line-height: var(--sm-line-height);
 }
 
 .footer-designer {
-  line-height: var(--secondary-line-height);
+  line-height: var(--xl-line-height);
   letter-spacing: 1px;
   color: var(--quinary-text-color);
   padding-right: 8px;

@@ -23,12 +23,11 @@
 }
 
 .header-title {
-  line-height: var(--secondary-line-height);
+  line-height: var(--md-line-height);
 }
 
 .header-description {
   line-height: 24.5px;
-  letter-spacing: 0.4px;
 }
 /* HEADER END */
 
@@ -61,7 +60,7 @@
   .header-content {
     width: 100%;
     margin: 28px auto 0;
-    padding: 0 clamp(20px, 6vw, 100px) 153px;
+    padding: 0 clamp(20px, 6vw, 100px) 150px;
   }
 
   .header-logo {
