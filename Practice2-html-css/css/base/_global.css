@@ -12,3 +12,9 @@ body {
   line-height: 1;
   overflow-x: auto;
 }
+
+@media (max-width: 767px) {
+  .layout-wrapper {
+    min-width: 320px;
+  }
+}
