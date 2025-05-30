@@ -5,7 +5,7 @@
   border: 2px solid transparent;
   cursor: pointer;
   line-height: var(--sm-line-height);
-  font-size: var(--secondary-font-size);
+  font-size: var(--text-font-size-md);
 
   /* Start define size button */
   &.medium-btn {

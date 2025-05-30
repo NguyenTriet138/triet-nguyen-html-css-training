@@ -1,21 +1,21 @@
 :root {
   --primary-color: #FF4E50;
   --secondary-color: #FFF;
-  --primary-text-color: #444;
-  --secondary-text-color: #666;
-  --ternary-text-color: #999;
-  --quaternary-text-color: #E3E3E3;
-  --quinary-text-color: #CCC;
+  --text-color-default: #444;
+  --text-color-description: #666;
+  --text-color-link: #999;
+  --text-color-description-light: #E3E3E3;
+  --text-color-designer: #CCC;
 
   --primary-font: 'Roboto', sans-serif;
-  --primary-font-size: 10px;
-  --secondary-font-size: 14px;
-  --ternary-font-size: 16px;
-  --quaternary-font-size: 18px;
+  --text-font-size-sm: 10px;
+  --text-font-size-md: 14px;
+  --text-font-size-lg: 16px;
+  --text-font-size-xl: 18px;
 
-  --primary-title-font-size: 22px;
-  --secondary-title-font-size: 24px;
-  --ternary-title-font-size: 52px;
+  --title-font-size-sm: 22px;
+  --title-font-size-md: 24px;
+  --title-font-size-lg: 52px;
 
   --primary-font-weight: 400;
   --secondary-font-weight: 600;

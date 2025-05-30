@@ -25,7 +25,7 @@
 .footer-designer {
   line-height: var(--xl-line-height);
   letter-spacing: 1px;
-  color: var(--quinary-text-color);
+  color: var(--text-color-designer);
   padding-right: 8px;
   margin-bottom: 7px;
 }

@@ -22,7 +22,7 @@
 
 .partner-name {
   margin-bottom: 23px;
-  color: var(--primary-text-color);
+  color: var(--text-color-default);
   line-height: var(--sm-line-height);
 }
 /* End Part 2 content */

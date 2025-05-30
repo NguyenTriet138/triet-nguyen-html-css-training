@@ -1,24 +1,24 @@
 /* Start text-description component define */
 .text-description {
-  font-size: var(--secondary-font-size);
+  font-size: var(--text-font-size-md);
 
   &.primary-text {
-    color: var(--primary-text-color);
+    color: var(--text-color-default);
   }
 
   &.secondary-text {
-    color: var(--secondary-text-color);
+    color: var(--text-color-description);
   }
 
   &.ternary-text {
-    color: var(--quaternary-text-color);
+    color: var(--text-color-description-light);
   }
 }
 /* End text-description component define */
 
 /* Start text-title component define */
 .text-title {
-  font-size: var(--primary-title-font-size);
+  font-size: var(--title-font-size-sm);
   line-height: var(--lg-line-height);
 
   &.primary-title {
