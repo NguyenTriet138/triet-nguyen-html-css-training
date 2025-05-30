@@ -49,11 +49,16 @@
   .step-content {
     padding: 220px 20px 16px;
   }
+
+  .step-card {
+    margin-bottom: 7px;
+  }
 }
 
 @media (max-width: 767px) {
   .step-card {
     width: 100%;
+    margin-bottom: 0;
   }
 
   .second-step-img .step-content {
