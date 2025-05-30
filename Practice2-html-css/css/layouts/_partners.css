@@ -16,8 +16,12 @@
   height: 120px;
 }
 
+.partners-description {
+  margin-top: 20px
+}
+
 .partner-name {
-  margin: 20px 0 23px;
+  margin-bottom: 23px;
   color: var(--primary-text-color);
   line-height: var(--sm-line-height);
 }
