@@ -25,6 +25,21 @@
   color: var(--text-color-default);
   line-height: var(--sm-line-height);
 }
+
+.avatar-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: var(--secondary-color);
+  width: 37px;
+  height: 37px;
+  border: 4px solid;
+}
 /* End Part 2 content */
 
 @media (max-width: 1439px) {

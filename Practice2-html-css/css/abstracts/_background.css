@@ -14,3 +14,19 @@
 .bg-norepeat {
   background-repeat: no-repeat;
 }
+
+.bg-icon-1st {
+  background-color: var(--primary-color);
+}
+
+.bg-icon-2nd {
+  background-color: var(--second-icon-color);
+}
+
+.bg-icon-3rd {
+  background-color: var(--third-icon-color);
+}
+
+.bg-icon-4th {
+  background-color: var(--fourth-icon-color);
+}
