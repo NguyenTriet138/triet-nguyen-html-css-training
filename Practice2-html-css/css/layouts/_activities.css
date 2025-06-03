@@ -56,7 +56,7 @@
   }
 
   .activity-sports {
-  background-image: var(--bg-activities), url(../../images/activity1-mobile.webp);
+    background-image: var(--bg-activities), url(../../images/activity1-mobile.webp);
   }
 
   .activity-wellness {
