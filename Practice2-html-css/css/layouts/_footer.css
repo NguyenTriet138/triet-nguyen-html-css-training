@@ -34,7 +34,6 @@
 }
 
 .footer-column.logo {
-  padding-right: 2px;
   margin-right: clamp(120px, 9.3vw, 135px);
 }
 
@@ -90,7 +89,6 @@
   }
 
   .footer-column.logo {
-    padding-right: 0;
     margin-right: 0;
   }
 

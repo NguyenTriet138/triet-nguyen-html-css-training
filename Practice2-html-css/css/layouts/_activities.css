@@ -54,4 +54,32 @@
     grid-auto-rows: 120px;
     margin-top: 35px;
   }
+
+  .activity-sports {
+  background-image: var(--bg-activities), url(../../images/activity1-mobile.webp);
+  }
+
+  .activity-wellness {
+    background-image: var(--bg-activities), url(../../images/activity2-mobile.webp);
+  }
+
+  .activity-extreme {
+    background-image: var(--bg-activities), url(../../images/activity3-mobile.webp);
+  }
+
+  .activity-games {
+    background-image: var(--bg-activities), url(../../images/activity4-mobile.webp);
+  }
+
+  .activity-culture {
+    background-image: var(--bg-activities), url(../../images/activity5-mobile.webp);
+  }
+
+  .activity-enjoyment {
+    background-image: var(--bg-activities), url(../../images/activity6-mobile.webp);
+  }
+
+  .activity-travelling {
+    background-image: var(--bg-activities), url(../../images/activity7-mobile.webp);
+  }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Preload background image -->
-    <link rel="preload" as="image" href="./images/background.webp" type="image/webp" />
+    <link rel="preload" as="image" href="./images/background-mobile.webp" media="(min-width: 320px)" type="image/webp" />
     <title>Dreamshare Web Page</title>
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/main.css">
@@ -14,9 +14,14 @@
     <div class="layout-wrapper">
       <!-- ==== START Header ====  -->
       <header class="header">
-        <img class="header-bg" src="./images/background.webp" alt="Background" />
+        <picture>
+          <source srcset="./images/background-desktop.webp" media="(min-width: 1441px)" type="image/webp">
+          <source srcset="./images/background-tablet.webp" media="(max-width: 1439px)" type="image/webp">
+          <source srcset="./images/background-mobile.webp" media="(max-width: 767px)" type="image/webp">
+          <img src="./images/background-mobile.webp" alt="Dreamshare background" width="412" height="518" class="header-bg" loading="eager">
+        </picture>
         <div class="header-bar d-flex justify-space-between align-center">
-          <img class="header-logo cursor-pointer" src="./images/primary-logo.png" alt="DREAMSHARE-logo">
+          <img class="header-logo cursor-pointer" src="./images/primary-logo.png" width="131" height="20" alt="DREAMSHARE-logo">
           <div class="header-auth d-flex align-center gap-10">
             <button type="button" class="button medium-btn secondary-btn">Log in</button>
             <button type="button" class="button medium-btn secondary-btn">Sign Up</button>
@@ -71,7 +76,7 @@
                 <div class="avatar-wrapper">
                   <img src="./images/avatar1.jpg" alt="Bradley Hunter image" class="avatars cursor-pointer border-circle bg-object">
                   <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-1st">
-                    <img src="./icons/music.png" alt="Music icon">
+                    <img src="./icons/music.png" width="16" height="16" alt="Music icon">
                   </span>
                 </div>
                 <figcaption class="partners-description text-center">
@@ -83,7 +88,7 @@
                 <div class="avatar-wrapper">
                   <img src="./images/avatar2.jpg" alt="Marie Bennett image" class="avatars cursor-pointer border-circle bg-object">
                   <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-2nd">
-                    <img src="./icons/pen.png" alt="Pen icon">
+                    <img src="./icons/pen.png" width="16" height="16" alt="Pen icon">
                   </span>
                 </div>
                 <figcaption class="partners-description text-center">
@@ -95,7 +100,7 @@
                 <div class="avatar-wrapper">
                   <img src="./images/avatar3.jpg" alt="Diana Wells image" class="avatars cursor-pointer border-circle bg-object">
                   <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-3rd">
-                    <img src="./icons/camera.png" alt="Camera icon">
+                    <img src="./icons/camera.png" width="16" height="16" alt="Camera icon">
                   </span>
                 </div>
                 <figcaption class="partners-description text-center">
@@ -107,7 +112,7 @@
                 <div class="avatar-wrapper">
                   <img src="./images/avatar4.jpg" alt="Christopher Pierce image" class="avatars cursor-pointer border-circle bg-object">
                   <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-4th">
-                    <img src="./icons/plane.png" alt="Plane icon">
+                    <img src="./icons/plane.png" width="16" height="16" alt="Plane icon">
                   </span>
                 </div>
                 <figcaption class="partners-description text-center">
@@ -165,7 +170,7 @@
       <footer class="footer d-flex justify-center">
         <div class="footer-content d-flex justify-center">
           <div class="footer-column logo">
-            <img src="./images/secondary-logo.png" alt="DREAMSHARE-logo" class="cursor-pointer">
+            <img src="./images/secondary-logo.png" alt="DREAMSHARE-logo" width="105" height="14" class="cursor-pointer">
           </div>
           <div class="footer-column company">
             <h4 class="footer-title title-sm">Company</h4>
@@ -183,7 +188,7 @@
           </div>
           <div class="footer-column text-right">
             <p class="footer-designer text-uppercase text-sm">Designed by</p>
-            <img src="./images/logo-design.jpg" alt="Areto logo"/>
+            <img src="./images/logo-design.jpg" alt="Areto logo" width="110" height="24"/>
           </div>
         </div>
       </footer>
