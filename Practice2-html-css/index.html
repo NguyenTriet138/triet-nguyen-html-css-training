@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preload background image -->
+    <link rel="preload" as="image" href="./images/background.webp" type="image/webp" />
     <title>Dreamshare Web Page</title>
+    <!-- Main CSS -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="./images/secondary-logo.png" type="image/png" sizes="16x16">
   </head>
   <body>
     <div class="layout-wrapper">
       <!-- ==== START Header ====  -->
-      <header class="header bg-cover bg-center bg-norepeat">
+      <header class="header">
+        <img class="header-bg" src="./images/background.webp" alt="Background" />
         <div class="header-bar d-flex justify-space-between align-center">
           <img class="header-logo cursor-pointer" src="./images/primary-logo.png" alt="DREAMSHARE-logo">
           <div class="header-auth d-flex align-center gap-10">
@@ -32,7 +36,7 @@
         <section class="content-cards">
           <h3 class="content-title text-title text-center">How Dreamshare works?</h3>
           <div class="content-container d-flex gap-20">
-            <article class="step-card cursor-pointer first-step-img bg-center bg-norepeat d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer first-step-img bg-center d-flex d-flex-column justify-end border-radius-4">
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 1</h5>
                 <h4 class="step-title mt-30 title-md">Sed leo enim, condimentum</h4>
@@ -40,7 +44,7 @@
                     Donec rhoncus a leo sit amet facilisis.</p>
               </div>
             </article>
-            <article class="step-card cursor-pointer second-step-img bg-norepeat d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer second-step-img d-flex d-flex-column justify-end border-radius-4">
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 2</h5>
                 <h4 class="step-title mt-30 title-lg">Morbi velit risus</h4>
@@ -48,7 +52,7 @@
                     Nulla quis dictum purus, sit amet porttitor est.</p>
               </div>
             </article>
-            <article class="step-card cursor-pointer third-step-img bg-norepeat d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer third-step-img d-flex d-flex-column justify-end border-radius-4">
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 3</h5>
                 <h4 class="step-title mt-30 title-lg">Sed leo enim, condimentum</h4>

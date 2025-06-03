@@ -16,31 +16,31 @@
 }
 
 .activity-sports {
-  background-image: var(--bg-activities), url(../../images/activity1.jpg);
+  background-image: var(--bg-activities), url(../../images/activity1.webp);
 }
 
 .activity-wellness {
-  background-image: var(--bg-activities), url(../../images/activity2.jpg);
+  background-image: var(--bg-activities), url(../../images/activity2.webp);
 }
 
 .activity-extreme {
-  background-image: var(--bg-activities), url(../../images/activity3.jpg);
+  background-image: var(--bg-activities), url(../../images/activity3.webp);
 }
 
 .activity-games {
-  background-image: var(--bg-activities), url(../../images/activity4.jpg);
+  background-image: var(--bg-activities), url(../../images/activity4.webp);
 }
 
 .activity-culture {
-  background-image: var(--bg-activities), url(../../images/activity5.jpg);
+  background-image: var(--bg-activities), url(../../images/activity5.webp);
 }
 
 .activity-enjoyment {
-  background-image: var(--bg-activities), url(../../images/activity6.jpg);
+  background-image: var(--bg-activities), url(../../images/activity6.webp);
 }
 
 .activity-travelling {
-  background-image: var(--bg-activities), url(../../images/activity7.jpg);
+  background-image: var(--bg-activities), url(../../images/activity7.webp);
 }
 /* End Part 3 content */
 

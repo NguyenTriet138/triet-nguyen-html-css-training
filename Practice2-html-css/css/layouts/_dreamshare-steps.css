@@ -12,18 +12,21 @@
   color: var(--secondary-color);
 
   &.first-step-img {
-    background: var(--bg-step-card), url(../../images/step1.jpg);
+    background: var(--bg-step-card), url(../../images/step1.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   &.second-step-img {
-    background: var(--bg-step-card), url(../../images/step2.jpg);
+    background: var(--bg-step-card), url(../../images/step2.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   &.third-step-img {
-    background: var(--bg-step-card), url(../../images/step3.jpg);
+    background: var(--bg-step-card), url(../../images/step3.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
