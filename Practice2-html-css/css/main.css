@@ -1,25 +1,25 @@
 /* 1. Abtracts */
-@import 'abstracts/_background.css';
-@import 'abstracts/_layout.css';
-@import 'abstracts/_typography.css';
-@import 'abstracts/_spacing.css';
-@import 'abstracts/_interactivity.css';
-@import 'abstracts/_variables.css';
+@import './abstracts/_background.css';
+@import './abstracts/_layout.css';
+@import './abstracts/_typography.css';
+@import './abstracts/_spacing.css';
+@import './abstracts/_interactivity.css';
+@import './abstracts/_variables.css';
 
 /* 2. Base */
-@import 'base/_reset.css';
-@import 'base/_global.css';
+@import './base/_reset.css';
+@import './base/_global.css';
 
 /* 3. Components */
-@import 'components/_button.css';
-@import 'components/_content-card.css';
-@import 'components/_text.css';
-@import 'components/_links.css';
+@import './components/_button.css';
+@import './components/_content-card.css';
+@import './components/_text.css';
+@import './components/_links.css';
 
 /* 4. Layouts */
-@import 'layouts/_header.css';
-@import 'layouts/_partners.css';
-@import 'layouts/_dreamshare-steps.css';
-@import 'layouts/_interests-holiday.css';
-@import 'layouts/_activities.css';
-@import 'layouts/_footer.css';
+@import './layouts/_header.css';
+@import './layouts/_partners.css';
+@import './layouts/_dreamshare-steps.css';
+@import './layouts/_interests-holiday.css';
+@import './layouts/_activities.css';
+@import './layouts/_footer.css';
