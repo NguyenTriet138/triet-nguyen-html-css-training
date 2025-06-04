@@ -38,7 +38,7 @@
 }
 
 .footer-column.company {
-  min-width: 115px;
+  min-width: 117px;
   margin-right: clamp(55px, 8.6vw, 125px);
 }
 
