@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Preload background image -->
-    <link rel="preload" as="image" href="./images/background-mobile.webp" width="412" height="518" media="(min-width: 320px)" type="image/webp" />
+    <!-- Preload background image LCP -->
+    <link rel="preload" as="image" href="./images/background-desktop.webp" media="(min-width: 1441px)" type="image/webp">
+    <link rel="preload" as="image" href="./images/background-tablet.webp" media="(max-width: 1439px) and (min-width: 768px)" type="image/webp">
+    <link rel="preload" as="image" href="./images/background-mobile.webp" media="(max-width: 767px)" type="image/webp">
     <title>Dreamshare Web Page</title>
     <!-- Main CSS -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preload" as="font" href="./fonts/Roboto-VariableFont_wdth,wght.ttf" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="./css/main.css"></noscript>
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="icon" href="./images/secondary-logo.png" type="image/png" sizes="16x16">
   </head>
   <body>
@@ -16,9 +21,9 @@
       <header class="header">
         <picture>
           <source srcset="./images/background-desktop.webp" media="(min-width: 1441px)" type="image/webp">
-          <source srcset="./images/background-tablet.webp" media="(max-width: 1439px)" type="image/webp">
+          <source srcset="./images/background-tablet.webp" media="(max-width: 1439px) and (min-width: 768px)" type="image/webp">
           <source srcset="./images/background-mobile.webp" media="(max-width: 767px)" type="image/webp">
-          <img src="./images/background-mobile.webp" alt="Dreamshare background" width="412" height="518" class="header-bg" loading="eager">
+          <img src="./images/background-mobile.webp" alt="Dreamshare background" width="412" height="518" class="header-bg" fetchpriority="high" loading="eager">
         </picture>
         <div class="header-bar d-flex justify-space-between align-center">
           <img class="header-logo cursor-pointer" src="./images/primary-logo.png" width="131" height="18" alt="DREAMSHARE-logo">
