@@ -1,9 +1,8 @@
 .link {
-  color: var(--termary-text-color);
-  text-decoration: none;
+  color: var(--text-color-link);
 
   &:hover {
-    color: var(--primary-text-color);
-    font-weight: var(--seconday-font-weight);
+    color: var(--text-color-default);
+    font-weight: var(--secondary-font-weight);
   }
 }

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   font-family: var(--primary-font);
@@ -7,8 +15,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--secondary-color);
-  color: var(--primary-text-color);
+  color: var(--text-color-default);
   font-weight: var(--primary-font-weight);
-  line-height: var(--primary-line-height);
+  line-height: 1;
   overflow-x: auto;
+}
+
+@media (max-width: 767px) {
+  .layout-wrapper {
+    min-width: 320px;
+  }
 }

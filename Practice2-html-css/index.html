@@ -3,166 +3,201 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preload background image LCP -->
+    <link rel="preload" as="image" href="./images/background-desktop.webp" media="(min-width: 1441px)" type="image/webp">
+    <link rel="preload" as="image" href="./images/background-tablet.webp" media="(max-width: 1439px) and (min-width: 768px)" type="image/webp">
+    <link rel="preload" as="image" href="./images/background-mobile.webp" media="(max-width: 767px)" type="image/webp">
     <title>Dreamshare Web Page</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="preload" as="font" href="./fonts/Roboto-VariableFont_wdth,wght.ttf" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="./css/main.css"></noscript>
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="icon" href="./images/secondary-logo.png" type="image/png" sizes="16x16">
   </head>
   <body>
-    <!-- ==== START Header ====  -->
-    <header class="header bg-cover bg-center bg-norepeat">
-      <div class="header-bar d-flex justify-space-between align-center">
-        <img class="header-logo cursor-pointer" src="./images/primary-logo.png" alt="DREAMSHARE-logo">
-        <div class="header-auth d-flex align-center gap-10">
-          <button type="button" class="button medium-btn secondary-btn">Log in</button>
-          <button type="button" class="button medium-btn secondary-btn">Sign Up</button>
-        </div>
-      </div>
-      <div class="header-content d-flex d-flex-column align-center">
-        <h2 class="header-title text-center text-uppercase title-xl text-font-weight-400 mb-30">Share your holiday dream</h2>
-        <p class="header-description title-lg mb-30 text-center">And find the perfect partner to fullfill it</p>
-        <button type="button" class="button large-btn primary-btn mobile-button">Find your holiday partner</button>
-      </div>
-    </header>
-    <!-- ==== END Header ====  -->
-    <!-- ***************************************  -->
-    <!-- ==== START Body-content ====  -->
-    <main class="d-flex d-flex-column align-center gap-10">
-      <!--Section 1: Dreamshare works -->
-      <section class="content-cards">
-        <h3 class="content-title text-title text-center">How Dreamshare works?</h3>
-        <div class="content-container d-flex gap-20">
-          <article class="step-card cursor-pointer first-step-img bg-center bg-norepeat d-flex d-flex-column justify-end border-radius-4">
-            <div class="step-content">
-              <h5 class="step-sub-title text-uppercase text-sm">Step 1</h5>
-              <h4 class="step-title mt-30 title-md">Sed leo enim, condimentum</h4>
-              <p class="mt-30 text-description termary-text">Quisque libero libero, dictum non turpis in, luctus semper lorem.
-                  Donec rhoncus a leo sit amet facilisis.</p>
-            </div>
-          </article>
-          <article class="step-card cursor-pointer second-step-img bg-norepeat d-flex d-flex-column justify-end border-radius-4">
-            <div class="step-content">
-              <h5 class="step-sub-title text-uppercase text-sm">Step 2</h5>
-              <h4 class="step-title mt-30 title-lg">Morbi velit risus</h4>
-              <p class="mt-30 text-description termary-text">Nulla venenatis tempor dui in molestie.
-                  Nulla quis dictum purus, sit amet porttitor est.</p>
-            </div>
-          </article>
-          <article class="step-card cursor-pointer third-step-img bg-norepeat d-flex d-flex-column justify-end border-radius-4">
-            <div class="step-content">
-              <h5 class="step-sub-title text-uppercase text-sm">Step 3</h5>
-              <h4 class="step-title mt-30 title-lg">Sed leo enim, condimentum</h4>
-              <p class="mt-30 text-description termary-text">Quisque libero libero, dictum non turpis in, luctus semper lorem.
-                  Donec rhoncus a leo sit amet facilisis.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-      <!--Section 2: Meet partners -->
-      <section class="content-cards">
-        <h3 class="content-title text-title text-center">Meet a partner for your best holiday</h3>
-        <div class="content-container d-flex gap-20 d-flex-column partners-container">
-          <div class="partners d-grid gap-20 justify-center">
-            <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./images/avatar1.jpg" alt="Bradley Hunter image" class="avatars cursor-pointer border-circle bg-object">
-              <figcaption class="text-center">
-                <h4 class="partner-name text-description">Bradley Hunter</h4>
-                <p class="text-description secondary-text">Based in Chicago. I love playing tennis and loud music.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./images/avatar2.jpg" alt="Marie Bennett image" class="avatars cursor-pointer border-circle bg-object">
-              <figcaption class="text-center">
-                <h4 class="partner-name text-description">Marie Bennett</h4>
-                <p class="text-description secondary-text">Currently living in Colorado. Lover of art, languages and travelling.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./images/avatar3.jpg" alt="Diana Wells image" class="avatars cursor-pointer border-circle bg-object">
-              <figcaption class="text-center">
-                <h4 class="partner-name text-description">Diana Wells</h4>
-                <p class="text-description secondary-text">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
-              </figcaption>
-            </figure>
-            <figure class="partner-card d-flex d-flex-column align-center">
-              <img src="./images/avatar4.jpg" alt="Christopher Pierce image" class="avatars cursor-pointer border-circle bg-object">
-              <figcaption class="text-center">
-                <h4 class="partner-name text-description">Christopher Pierce</h4>
-                <p class="text-description secondary-text">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
-              </figcaption>
-            </figure>
+    <div class="layout-wrapper">
+      <!-- ==== START Header ====  -->
+      <header class="header">
+        <picture>
+          <source srcset="./images/background-desktop.webp" media="(min-width: 1441px)" type="image/webp">
+          <source srcset="./images/background-tablet.webp" media="(max-width: 1439px) and (min-width: 768px)" type="image/webp">
+          <source srcset="./images/background-mobile.webp" media="(max-width: 767px)" type="image/webp">
+          <img src="./images/background-mobile.webp" alt="Dreamshare background" width="412" height="518" class="header-bg" fetchpriority="high" loading="eager">
+        </picture>
+        <div class="header-bar d-flex justify-space-between align-center">
+          <img class="header-logo cursor-pointer" src="./images/primary-logo.png" width="131" height="18" alt="DREAMSHARE-logo">
+          <div class="header-auth d-flex align-center gap-10">
+            <button type="button" class="button medium-btn secondary-btn">Log in</button>
+            <button type="button" class="button medium-btn secondary-btn">Sign Up</button>
           </div>
-          <button type="button" class="button large-btn ternary-btn align-self-center mobile-button">See other partners</button>
         </div>
-      </section>
-      <!--Section 3: Discover activity ideas -->
-      <section class="content-cards">
-        <h3 class="content-title text-title text-center">Discover holiday activity ideas</h3>
-        <div class="content-container d-grid gap-20 content-activities">
-          <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-sports bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Sports and Activities</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-wellness bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Wellness and Health</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-extreme bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Extreme Sports and Expeditions</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-games bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Games</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-2 grid-col-mobile border-radius-4 activity-culture bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Culture and Education</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-2 grid-col-mobile border-radius-4 activity-enjoyment bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Enjoyment and Relaxation</h4>
-          </article>
-          <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-travelling bg-center bg-cover bg-norepeat d-flex justify-center align-center">
-            <h4 class="text-center text-title primary-title">Travelling</h4>
-          </article>
+        <div class="header-content d-flex d-flex-column align-center">
+          <h2 class="header-title text-center text-uppercase title-xl text-font-weight-400 mb-30">Share your holiday dream</h2>
+          <p class="header-description title-lg mb-30 text-center">And find the perfect partner to fullfill it</p>
+          <button type="button" class="button large-btn primary-btn mobile-button">Find your holiday partner</button>
         </div>
-      </section>
-      <!--Section 4: Create your holiday activity -->
-      <section class="content-cards">
-        <h3 class="content-title text-title text-center mt-mobile-30">Create your holiday activity</h3>
-        <div class="content-container d-flex-column">
-          <h4 class="create-activity-title text-center text-xl">Hi! What are your holiday interests?</h4>
-          <form class="form-search">
-            <input type="search" name="search" class="input-search text-description border-radius-3 mr-10" placeholder="Enter your interests">
-            <button type="submit" class="button large-btn primary-btn mobile-button">Search partners</button>
-          </form>
+      </header>
+      <!-- ==== END Header ====  -->
+      <!-- ***************************************  -->
+      <!-- ==== START Body-content ====  -->
+      <main class="d-flex d-flex-column align-center gap-10">
+        <!--Section 1: Dreamshare works -->
+        <section class="content-cards">
+          <h3 class="content-title text-title text-center">How Dreamshare works?</h3>
+          <div class="content-container d-flex gap-20">
+            <article class="step-card cursor-pointer first-step-img bg-center d-flex d-flex-column justify-end border-radius-4">
+              <div class="step-content">
+                <h5 class="step-sub-title text-uppercase text-sm">Step 1</h5>
+                <h4 class="step-title mt-30 title-md">Sed leo enim, condimentum</h4>
+                <p class="mt-30 text-description ternary-text">Quisque libero libero, dictum non turpis in, luctus semper lorem.
+                    Donec rhoncus a leo sit amet facilisis.</p>
+              </div>
+            </article>
+            <article class="step-card cursor-pointer second-step-img d-flex d-flex-column justify-end border-radius-4">
+              <div class="step-content">
+                <h5 class="step-sub-title text-uppercase text-sm">Step 2</h5>
+                <h4 class="step-title mt-30 title-lg">Morbi velit risus</h4>
+                <p class="mt-30 text-description ternary-text">Nulla venenatis tempor dui in molestie.
+                    Nulla quis dictum purus, sit amet porttitor est.</p>
+              </div>
+            </article>
+            <article class="step-card cursor-pointer third-step-img d-flex d-flex-column justify-end border-radius-4">
+              <div class="step-content">
+                <h5 class="step-sub-title text-uppercase text-sm">Step 3</h5>
+                <h4 class="step-title mt-30 title-lg">Sed leo enim, condimentum</h4>
+                <p class="mt-30 text-description ternary-text">Quisque libero libero, dictum non turpis in, luctus semper lorem.
+                    Donec rhoncus a leo sit amet facilisis.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!--Section 2: Meet partners -->
+        <section class="content-cards partners-section">
+          <h3 class="content-title text-title text-center">Meet a partner for your best holiday</h3>
+          <div class="content-container d-flex gap-20 d-flex-column partners-container">
+            <div class="partners d-grid gap-20 justify-center">
+              <figure class="partner-card d-flex d-flex-column align-center">
+                <div class="avatar-wrapper">
+                  <img src="./images/avatar1.jpg" alt="Bradley Hunter image" class="avatars cursor-pointer border-circle bg-object">
+                  <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-1st">
+                    <img src="./icons/music.png" width="16" height="16" alt="Music icon">
+                  </span>
+                </div>
+                <figcaption class="partners-description text-center">
+                  <h4 class="partner-name text-description">Bradley Hunter</h4>
+                  <p class="text-description secondary-text">Based in Chicago. I love playing tennis and loud music.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card d-flex d-flex-column align-center">
+                <div class="avatar-wrapper">
+                  <img src="./images/avatar2.jpg" alt="Marie Bennett image" class="avatars cursor-pointer border-circle bg-object">
+                  <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-2nd">
+                    <img src="./icons/pen.png" width="16" height="16" alt="Pen icon">
+                  </span>
+                </div>
+                <figcaption class="partners-description text-center">
+                  <h4 class="partner-name text-description">Marie Bennett</h4>
+                  <p class="text-description secondary-text">Currently living in Colorado. Lover of art, languages and travelling.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card d-flex d-flex-column align-center">
+                <div class="avatar-wrapper">
+                  <img src="./images/avatar3.jpg" alt="Diana Wells image" class="avatars cursor-pointer border-circle bg-object">
+                  <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-3rd">
+                    <img src="./icons/camera.png" width="16" height="16" alt="Camera icon">
+                  </span>
+                </div>
+                <figcaption class="partners-description text-center">
+                  <h4 class="partner-name text-description">Diana Wells</h4>
+                  <p class="text-description secondary-text">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+                </figcaption>
+              </figure>
+              <figure class="partner-card d-flex d-flex-column align-center">
+                <div class="avatar-wrapper">
+                  <img src="./images/avatar4.jpg" alt="Christopher Pierce image" class="avatars cursor-pointer border-circle bg-object">
+                  <span class="avatar-icon border-circle d-flex align-center justify-center bg-icon-4th">
+                    <img src="./icons/plane.png" width="16" height="16" alt="Plane icon">
+                  </span>
+                </div>
+                <figcaption class="partners-description text-center">
+                  <h4 class="partner-name text-description">Christopher Pierce</h4>
+                  <p class="text-description secondary-text">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <button type="button" class="button large-btn ternary-btn align-self-center mobile-button">See other partners</button>
+          </div>
+        </section>
+        <!--Section 3: Discover activity ideas -->
+        <section class="content-cards activities-section">
+          <h3 class="content-title text-title text-center">Discover holiday activity ideas</h3>
+          <div class="content-container d-grid gap-20 content-activities">
+            <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-sports bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Sports and Activities</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-wellness bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Wellness and Health</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-extreme bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Extreme Sports and Expeditions</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-games bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Games</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-2 grid-col-mobile border-radius-4 activity-culture bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Culture and Education</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-2 grid-col-mobile border-radius-4 activity-enjoyment bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Enjoyment and Relaxation</h4>
+            </article>
+            <article class="cursor-pointer grid-col-span-1 border-radius-4 activity-travelling bg-center bg-cover bg-norepeat d-flex justify-center align-center">
+              <h4 class="text-center text-title primary-title">Travelling</h4>
+            </article>
+          </div>
+        </section>
+        <!--Section 4: Create your holiday activity -->
+        <section class="content-cards">
+          <h3 class="content-title text-title text-center mt-mobile-25">Create your holiday activity</h3>
+          <div class="content-container d-flex-column">
+            <h4 class="create-activity-title text-center text-xl">Hi! What are your holiday interests?</h4>
+            <form class="form-search">
+              <input type="search" name="search" class="input-search text-description border-radius-3 mr-10" placeholder="Enter your interests">
+              <button type="submit" class="button large-btn primary-btn mobile-button">Search partners</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <!-- ==== END Body-content ====  -->
+      <!-- ***************************************  -->
+      <!-- ==== START Footer ====  -->
+      <hr class="footer-horizontal-line mt-15">
+      <footer class="footer d-flex justify-center">
+        <div class="footer-content d-flex justify-center">
+          <div class="footer-column logo">
+            <img src="./images/secondary-logo.png" alt="DREAMSHARE-logo" width="105" height="14" class="cursor-pointer">
+          </div>
+          <div class="footer-column company">
+            <h4 class="footer-title title-sm">Company</h4>
+            <ul class="text-description footer-links cursor-pointer">
+              <li><a class="link text-decoration-none" href="#">About</a></li>
+              <li><a class="link text-decoration-none" href="#">Contact</a></li>
+              <li><a class="link text-decoration-none" href="#">Press</a></li>
+              <li><a class="link text-decoration-none" href="#">Blog</a></li>
+              <li><a class="link text-decoration-none" href="#">Terms and Privacy</a></li>
+              <li><a class="link text-decoration-none" href="#">Help</a></li>
+            </ul>
+          </div>
+          <div class="footer-column partner">
+            <h4 class="footer-title title-sm">Partners</h4>
+          </div>
+          <div class="footer-column text-right">
+            <p class="footer-designer text-uppercase text-sm">Designed by</p>
+            <img src="./images/logo-design.jpg" alt="Areto logo" width="110" height="24"/>
+          </div>
         </div>
-      </section>
-    </main>
-    <!-- ==== END Body-content ====  -->
-    <!-- ***************************************  -->
-    <!-- ==== START Footer ====  -->
-    <footer class="footer d-flex justify-center mt-15 border-top">
-      <div class="footer-content d-flex gap-20">
-        <div class="footer-column">
-          <img src="./images/secondary-logo.png" alt="DREAMSHARE-logo" class="cursor-pointer">
-          <!-- <h3 class="footer-logo">Dreamshare</h3> -->
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-title title-sm">Company</h4>
-          <ul class="text-description footer-links cursor-pointer">
-            <li><a class="link" href="#">About</a></li>
-            <li><a class="link" href="#">Contact</a></li>
-            <li><a class="link" href="#">Press</a></li>
-            <li><a class="link" href="#">Blog</a></li>
-            <li><a class="link" href="#">Terms and Privacy</a></li>
-            <li><a class="link" href="#">Help</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-title title-sm">Partners</h4>
-        </div>
-        <div class="footer-column text-right">
-          <p class="footer-designer text-uppercase text-sm">Designed by</p>
-          <img src="./images/logo-design.jpg" alt="Areto logo"/>
-        </div>
-      </div>
-    </footer>
-    <!-- ==== END Footer ====  -->
+      </footer>
+      <!-- ==== END Footer ====  -->
+    </div>
   </body>
 </html>

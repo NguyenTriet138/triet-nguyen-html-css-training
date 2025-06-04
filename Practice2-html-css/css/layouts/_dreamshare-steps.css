@@ -12,18 +12,21 @@
   color: var(--secondary-color);
 
   &.first-step-img {
-    background: var(--bg-step-card), url(../../images/step1.jpg);
+    background: var(--bg-step-card), url(../../images/step1.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   &.second-step-img {
-    background: var(--bg-step-card), url(../../images/step2.jpg);
+    background: var(--bg-step-card), url(../../images/step2.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   &.third-step-img {
-    background: var(--bg-step-card), url(../../images/step3.jpg);
+    background: var(--bg-step-card), url(../../images/step3.webp);
     background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -36,7 +39,7 @@
   background-color: var(--primary-color);
   padding: 5px 12px;
   border-radius: 40px;
-  line-height: var(--primary-line-height);
+  line-height: var(--xl-line-height);
   display: inline-block
 }
 
@@ -45,22 +48,39 @@
 }
 /* End Part 1 content */
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .step-content {
     padding: 220px 20px 16px;
+  }
+
+  .step-card {
+    margin-bottom: 7px;
   }
 }
 
 @media (max-width: 767px) {
   .step-card {
     width: 100%;
+    margin-bottom: 0;
+
+    &.first-step-img {
+      background: var(--bg-step-card), url(../../images/step1-mobile.webp);
+    }
+
+    &.second-step-img {
+      background: var(--bg-step-card), url(../../images/step2-mobile.webp);
+    }
+
+    &.third-step-img {
+      background: var(--bg-step-card), url(../../images/step3-mobile.webp);
+    }
   }
 
   .second-step-img .step-content {
-    padding-top: 88px;
+    padding-top: 86px;
   }
 
   .step-content {
-    padding: 74px 30px 16px 20px;
+    padding: 72px 30px 16px 20px;
   }
 }

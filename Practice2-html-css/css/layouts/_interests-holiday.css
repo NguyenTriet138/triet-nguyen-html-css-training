@@ -1,15 +1,19 @@
 /* Start Part 4 content */
 .create-activity-title {
   line-height: 14px;
-  margin: 8px 0 25px;
-  color: var(--secondary-text-color);
+  padding-top: 20px;
+  color: var(--text-color-description);
 }
 
 .input-search {
   border: 1px solid #D4D4D4;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 7.33%);
   padding: 12px 128px 10px 14px;
-  color: var(--termary-text-color);
+  color: var(--text-color-link);
+}
+
+.form-search {
+  margin-top: 25px;
 }
 /* End Part 4 content */
 /* BODY-CONTENT END */
@@ -17,13 +21,15 @@
 @media (max-width: 767px) {
   .create-activity-title {
     margin: 0 0 20px;
+    padding-top: 0;
   }
 
-  .mt-mobile-30 {
-    margin-top: 30px;
+  .mt-mobile-25 {
+    margin-top: 25px;
   }
 
   .form-search {
+    margin-top: 0;
     padding: 0 10px;
   }
 

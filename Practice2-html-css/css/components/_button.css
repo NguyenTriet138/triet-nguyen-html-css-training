@@ -4,12 +4,12 @@
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
-  line-height: var(--primary-line-height);
-  font-size: var(--secondary-font-size);
+  line-height: var(--sm-line-height);
+  font-size: var(--text-font-size-md);
 
   /* Start define size button */
   &.medium-btn {
-    padding: 9px 20px;
+    padding: 10px 20px;
   }
 
   &.large-btn {
