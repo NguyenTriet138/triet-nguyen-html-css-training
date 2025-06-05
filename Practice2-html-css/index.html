@@ -28,7 +28,7 @@
           <img src="./images/background-mobile.webp" alt="Dreamshare background" width="412" height="518" class="header-bg" fetchpriority="high" loading="eager">
         </picture>
         <div class="header-bar d-flex justify-space-between align-center">
-          <img class="header-logo cursor-pointer" src="./images/primary-logo.png" width="131" height="18" alt="DREAMSHARE-logo">
+          <img class="header-logo cursor-pointer" src="./images/primary-logo.png" width="131" height="17" alt="DREAMSHARE-logo">
           <div class="header-auth d-flex align-center gap-10">
             <button type="button" class="button medium-btn secondary-btn">Log in</button>
             <button type="button" class="button medium-btn secondary-btn">Sign Up</button>
@@ -48,7 +48,13 @@
         <section class="content-cards">
           <h3 class="content-title text-title text-center">How Dreamshare works?</h3>
           <div class="content-container d-flex gap-20">
-            <article class="step-card cursor-pointer first-step-img bg-center d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer bg-center d-flex d-flex-column justify-end border-radius-4">
+              <picture class="step-picture">
+                <source srcset="./images/step1.webp" media="(min-width: 768px)">
+                <source srcset="./images/step1-mobile.webp" media="(max-width: 767px)">
+                <img src="./images/step1-mobile.webp" alt="Step 1" class="step-img" loading="lazy">
+              </picture>
+              <div class="overlay"></div> <!-- gradient overlay -->
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 1</h5>
                 <h4 class="step-title mt-30 title-md">Sed leo enim, condimentum</h4>
@@ -56,7 +62,13 @@
                     Donec rhoncus a leo sit amet facilisis.</p>
               </div>
             </article>
-            <article class="step-card cursor-pointer second-step-img d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer d-flex d-flex-column justify-end border-radius-4">
+              <picture class="step-picture">
+                <source srcset="./images/step2.webp" media="(min-width: 768px)">
+                <source srcset="./images/step2-mobile.webp" media="(max-width: 767px)">
+                <img src="./images/step2-mobile.webp" alt="Step 2" class="step-img" loading="lazy">
+              </picture>
+              <div class="overlay"></div> <!-- gradient overlay -->
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 2</h5>
                 <h4 class="step-title mt-30 title-lg">Morbi velit risus</h4>
@@ -64,7 +76,13 @@
                     Nulla quis dictum purus, sit amet porttitor est.</p>
               </div>
             </article>
-            <article class="step-card cursor-pointer third-step-img d-flex d-flex-column justify-end border-radius-4">
+            <article class="step-card cursor-pointer d-flex d-flex-column justify-end border-radius-4">
+              <picture class="step-picture">
+                <source srcset="./images/step3.webp" media="(min-width: 768px)">
+                <source srcset="./images/step3-mobile.webp" media="(max-width: 767px)">
+                <img src="./images/step3-mobile.webp" alt="Step 3" class="step-img" loading="lazy">
+              </picture>
+              <div class="overlay"></div> <!-- gradient overlay -->
               <div class="step-content">
                 <h5 class="step-sub-title text-uppercase text-sm">Step 3</h5>
                 <h4 class="step-title mt-30 title-lg">Sed leo enim, condimentum</h4>
