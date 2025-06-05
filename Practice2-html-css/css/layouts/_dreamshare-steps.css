@@ -13,8 +13,6 @@
   max-width: 300px;
   color: var(--secondary-color);
   background-image: var(--bg-step-card);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .step-picture, .step-img {
@@ -67,6 +65,10 @@
   .step-card {
     width: 100%;
     margin-bottom: 0;
+  }
+
+  .step-card:nth-child(2) .step-content {
+    padding-top: 86px;
   }
 
   .step-content {
